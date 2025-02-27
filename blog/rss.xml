@@ -298,95 +298,10 @@ HLS 的 m3u8 文件，是一个 TS 的列表，也就是告诉浏览器可以播
 <div class="language-js codeBlockContainer_RIKU theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_g5z_"><pre tabindex="0" class="prism-code language-js codeBlock_CKHd thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_Il7l"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">// https://vitepress.dev/guide/custom-theme</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword module" style="color:#00009f">import</span><span class="token plain"> </span><span class="token imports maybe-class-name">Theme</span><span class="token plain"> </span><span class="token keyword module" style="color:#00009f">from</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"vitepress/theme"</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword module" style="color:#00009f">import</span><span class="token plain"> </span><span class="token imports punctuation" style="color:#393A34">{</span><span class="token imports"> h </span><span class="token imports punctuation" style="color:#393A34">}</span><span class="token plain"> </span><span class="token keyword module" style="color:#00009f">from</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"vue"</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword module" style="color:#00009f">import</span><span class="token plain"> </span><span class="token imports maybe-class-name">Comments</span><span class="token plain"> </span><span class="token keyword module" style="color:#00009f">from</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"../components/Comments.vue"</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword module" style="color:#00009f">import</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"./style.css"</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword module" style="color:#00009f">export</span><span class="token plain"> </span><span class="token keyword module" style="color:#00009f">default</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword" style="color:#00009f">extends</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token maybe-class-name">Theme</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token function-variable function maybe-class-name" style="color:#d73a49">Layout</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">h</span><span class="token punctuation" style="color:#393A34">(</span><span class="token maybe-class-name">Theme</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access maybe-class-name">Layout</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token keyword null nil" style="color:#00009f">null</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token comment" style="color:#999988;font-style:italic">// 这里加载评论模块</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token string-property property" style="color:#36acaa">"doc-after"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">h</span><span class="token punctuation" style="color:#393A34">(</span><span class="token maybe-class-name">Comments</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre><div class="buttonGroup_g6oc"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_vo8u" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_M40f"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_AqMK"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[硬件/计算机硬件组成原理]]></title>
-            <link>https://osliu.com/blog/硬件/计算机硬件组成原理</link>
-            <guid>https://osliu.com/blog/硬件/计算机硬件组成原理</guid>
+            <title><![CDATA[文档工具/vscode]]></title>
+            <link>https://osliu.com/blog/文档工具/vscode</link>
+            <guid>https://osliu.com/blog/文档工具/vscode</guid>
             <pubDate>Mon, 03 Feb 2025 15:41:23 GMT</pubDate>
-            <description><![CDATA[计算机组成原理]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_GyWS" id="计算机组成原理">计算机组成原理<a href="https://osliu.com/blog/%E7%A1%AC%E4%BB%B6/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86" class="hash-link" aria-label="计算机组成原理的直接链接" title="计算机组成原理的直接链接">​</a></h2>
-<p>《计算机组成原理》通常是一本介绍计算机硬件基本概念和组成结构的教材。它涵盖了计算机系统的核心组件、其工作原理以及如何设计和组装这些组件，使得计算机能够执行各种任务。以下是该类教材可能涵盖的主要内容：</p>
-<ol>
-<li>
-<p><strong>基本概念：</strong></p>
-<ul>
-<li>二进制和八进制数制。</li>
-<li>数据表示和编码。</li>
-</ul>
-</li>
-<li>
-<p><strong>中央处理器（CPU）：</strong></p>
-<ul>
-<li>CPU 的结构和功能。</li>
-<li>指令集架构（ISA）和指令执行的基本流程。</li>
-<li>控制单元（CU）和算术逻辑单元（ALU）的作用。</li>
-</ul>
-</li>
-<li>
-<p><strong>存储器体系结构：</strong></p>
-<ul>
-<li>内存的层次结构，包括缓存、主存和辅助存储器。</li>
-<li>内存的组织和访问方法。</li>
-</ul>
-</li>
-<li>
-<p><strong>总线系统：</strong></p>
-<ul>
-<li>总线的作用和种类。</li>
-<li>数据总线、地址总线和控制总线的作用。</li>
-</ul>
-</li>
-<li>
-<p><strong>输入/输出系统：</strong></p>
-<ul>
-<li>输入设备和输出设备的连接和数据传输。</li>
-<li>缓冲区和中断的概念。</li>
-</ul>
-</li>
-<li>
-<p><strong>计算机体系结构：</strong></p>
-<ul>
-<li>单处理器体系结构和多处理器体系结构。</li>
-<li>存储器访问方式，包括冯·诺伊曼体系结构和哈佛体系结构。</li>
-</ul>
-</li>
-<li>
-<p><strong>指令执行和流水线：</strong></p>
-<ul>
-<li>指令的执行过程，包括取指、译码、执行、访存和写回阶段。</li>
-<li>流水线架构的原理和优化。</li>
-</ul>
-</li>
-<li>
-<p><strong>中断和异常处理：</strong></p>
-<ul>
-<li>中断的概念和分类。</li>
-<li>异常处理和错误检测。</li>
-</ul>
-</li>
-<li>
-<p><strong>存储器管理：</strong></p>
-<ul>
-<li>虚拟内存和页面置换算法。</li>
-<li>缺页中断和页面表的作用。</li>
-</ul>
-</li>
-<li>
-<p><strong>计算机系统设计：</strong></p>
-<ul>
-<li>CPU 设计原理。</li>
-<li>数据通路和控制单元的设计。</li>
-<li>存储器和 I/O 系统的设计。</li>
-</ul>
-</li>
-<li>
-<p><strong>并行计算和分布式系统：</strong></p>
-<ul>
-<li>多核处理器和并行计算。</li>
-<li>分布式系统的基本概念。</li>
-</ul>
-</li>
-</ol>
-<p>这些内容通常是为了帮助学生和专业人士理解计算机硬件的基本原理，以及如何设计和优化计算机系统。《计算机组成原理》这类书籍适用于计算机科学、计算机工程和信息技术等领域的学生和从业者。</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[硬件/计算机硬件]]></title>
@@ -481,10 +396,95 @@ HLS 的 m3u8 文件，是一个 TS 的列表，也就是告诉浏览器可以播
 <p>理解计算机组成原理对于计算机科学、计算机工程和信息技术领域的从业者至关重要，因为它提供了关于计算机系统如何工作的基本知识。</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[文档工具/vscode]]></title>
-            <link>https://osliu.com/blog/文档工具/vscode</link>
-            <guid>https://osliu.com/blog/文档工具/vscode</guid>
+            <title><![CDATA[硬件/计算机硬件组成原理]]></title>
+            <link>https://osliu.com/blog/硬件/计算机硬件组成原理</link>
+            <guid>https://osliu.com/blog/硬件/计算机硬件组成原理</guid>
             <pubDate>Mon, 03 Feb 2025 15:41:23 GMT</pubDate>
+            <description><![CDATA[计算机组成原理]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_GyWS" id="计算机组成原理">计算机组成原理<a href="https://osliu.com/blog/%E7%A1%AC%E4%BB%B6/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86" class="hash-link" aria-label="计算机组成原理的直接链接" title="计算机组成原理的直接链接">​</a></h2>
+<p>《计算机组成原理》通常是一本介绍计算机硬件基本概念和组成结构的教材。它涵盖了计算机系统的核心组件、其工作原理以及如何设计和组装这些组件，使得计算机能够执行各种任务。以下是该类教材可能涵盖的主要内容：</p>
+<ol>
+<li>
+<p><strong>基本概念：</strong></p>
+<ul>
+<li>二进制和八进制数制。</li>
+<li>数据表示和编码。</li>
+</ul>
+</li>
+<li>
+<p><strong>中央处理器（CPU）：</strong></p>
+<ul>
+<li>CPU 的结构和功能。</li>
+<li>指令集架构（ISA）和指令执行的基本流程。</li>
+<li>控制单元（CU）和算术逻辑单元（ALU）的作用。</li>
+</ul>
+</li>
+<li>
+<p><strong>存储器体系结构：</strong></p>
+<ul>
+<li>内存的层次结构，包括缓存、主存和辅助存储器。</li>
+<li>内存的组织和访问方法。</li>
+</ul>
+</li>
+<li>
+<p><strong>总线系统：</strong></p>
+<ul>
+<li>总线的作用和种类。</li>
+<li>数据总线、地址总线和控制总线的作用。</li>
+</ul>
+</li>
+<li>
+<p><strong>输入/输出系统：</strong></p>
+<ul>
+<li>输入设备和输出设备的连接和数据传输。</li>
+<li>缓冲区和中断的概念。</li>
+</ul>
+</li>
+<li>
+<p><strong>计算机体系结构：</strong></p>
+<ul>
+<li>单处理器体系结构和多处理器体系结构。</li>
+<li>存储器访问方式，包括冯·诺伊曼体系结构和哈佛体系结构。</li>
+</ul>
+</li>
+<li>
+<p><strong>指令执行和流水线：</strong></p>
+<ul>
+<li>指令的执行过程，包括取指、译码、执行、访存和写回阶段。</li>
+<li>流水线架构的原理和优化。</li>
+</ul>
+</li>
+<li>
+<p><strong>中断和异常处理：</strong></p>
+<ul>
+<li>中断的概念和分类。</li>
+<li>异常处理和错误检测。</li>
+</ul>
+</li>
+<li>
+<p><strong>存储器管理：</strong></p>
+<ul>
+<li>虚拟内存和页面置换算法。</li>
+<li>缺页中断和页面表的作用。</li>
+</ul>
+</li>
+<li>
+<p><strong>计算机系统设计：</strong></p>
+<ul>
+<li>CPU 设计原理。</li>
+<li>数据通路和控制单元的设计。</li>
+<li>存储器和 I/O 系统的设计。</li>
+</ul>
+</li>
+<li>
+<p><strong>并行计算和分布式系统：</strong></p>
+<ul>
+<li>多核处理器和并行计算。</li>
+<li>分布式系统的基本概念。</li>
+</ul>
+</li>
+</ol>
+<p>这些内容通常是为了帮助学生和专业人士理解计算机硬件的基本原理，以及如何设计和优化计算机系统。《计算机组成原理》这类书籍适用于计算机科学、计算机工程和信息技术等领域的学生和从业者。</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[设计师/Blender/文档]]></title>
