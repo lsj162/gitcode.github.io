@@ -70,6 +70,67 @@ HLS 的 m3u8 文件，是一个 TS 的列表，也就是告诉浏览器可以播
 <p>B 站直播中 HLS 和去中心化 P2P 的实际应用</p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[系统]]></title>
+            <link>https://osliu.com/blog/系统</link>
+            <guid>https://osliu.com/blog/系统</guid>
+            <pubDate>Mon, 03 Feb 2025 15:41:23 GMT</pubDate>
+            <description><![CDATA[目前主流的系统]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_GyWS" id="目前主流的系统">目前主流的系统<a href="https://osliu.com/blog/%E7%B3%BB%E7%BB%9F#%E7%9B%AE%E5%89%8D%E4%B8%BB%E6%B5%81%E7%9A%84%E7%B3%BB%E7%BB%9F" class="hash-link" aria-label="目前主流的系统的直接链接" title="目前主流的系统的直接链接">​</a></h2>
+<p>截至我知识截止日期（2022 年 1 月），以下是一些主流的操作系统。请注意，技术领域不断发展，可能会有新的系统推出或者现有系统发生变化。以下列出的系统可能在现在仍然是主流，但也可能存在变化。</p>
+<ol>
+<li>
+<p><strong>Windows 系列：</strong></p>
+<ul>
+<li>Windows 10 是微软公司最新的主流桌面操作系统。</li>
+<li>Windows Server 系列用于服务器环境。</li>
+</ul>
+</li>
+<li>
+<p><strong>macOS：</strong></p>
+<ul>
+<li>macOS 是苹果公司的桌面和笔记本电脑操作系统，用于 Macintosh 计算机。</li>
+</ul>
+</li>
+<li>
+<p><strong>Linux 发行版：</strong></p>
+<ul>
+<li>Linux 是一种开源操作系统内核，有许多不同的发行版，如 Ubuntu、Fedora、Debian、CentOS 等，用于各种应用，包括桌面、服务器和嵌入式系统。</li>
+</ul>
+</li>
+<li>
+<p><strong>Android：</strong></p>
+<ul>
+<li>Android 是谷歌开发的移动设备操作系统，主要用于智能手机和平板电脑。</li>
+</ul>
+</li>
+<li>
+<p><strong>iOS：</strong></p>
+<ul>
+<li>iOS 是苹果公司开发的移动设备操作系统，主要用于 iPhone、iPad 和 iPod Touch。</li>
+</ul>
+</li>
+<li>
+<p><strong>Chrome OS：</strong></p>
+<ul>
+<li>Chrome OS 是由谷歌开发的操作系统，设计用于 Chromebook 等基于云的轻量级计算设备。</li>
+</ul>
+</li>
+<li>
+<p><strong>BSD 系列：</strong></p>
+<ul>
+<li>包括 FreeBSD、OpenBSD、NetBSD 等，它们是基于 BSD（伯克利软件发行版）的开源操作系统。</li>
+</ul>
+</li>
+<li>
+<p><strong>Unix：</strong></p>
+<ul>
+<li>Unix 是一种多用户、多任务操作系统，有多个衍生版本，如 AIX、HP-UX、Solaris 等。</li>
+</ul>
+</li>
+</ol>
+<p>请注意，技术行业变化迅速，新的操作系统可能已经推出，而某些系统可能在主流市场上失去影响力。确保查阅最新的资讯以获取有关当前主流操作系统的准确信息。</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[硬件]]></title>
             <link>https://osliu.com/blog/硬件</link>
             <guid>https://osliu.com/blog/硬件</guid>
@@ -165,67 +226,6 @@ HLS 的 m3u8 文件，是一个 TS 的列表，也就是告诉浏览器可以播
 </li>
 </ol>
 <p>这些硬件知识是理解和管理计算机系统的基础。对于计算机专业或 IT 领域的从业者，深入了解这些硬件知识是非常重要的。</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[系统]]></title>
-            <link>https://osliu.com/blog/系统</link>
-            <guid>https://osliu.com/blog/系统</guid>
-            <pubDate>Mon, 03 Feb 2025 15:41:23 GMT</pubDate>
-            <description><![CDATA[目前主流的系统]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_GyWS" id="目前主流的系统">目前主流的系统<a href="https://osliu.com/blog/%E7%B3%BB%E7%BB%9F#%E7%9B%AE%E5%89%8D%E4%B8%BB%E6%B5%81%E7%9A%84%E7%B3%BB%E7%BB%9F" class="hash-link" aria-label="目前主流的系统的直接链接" title="目前主流的系统的直接链接">​</a></h2>
-<p>截至我知识截止日期（2022 年 1 月），以下是一些主流的操作系统。请注意，技术领域不断发展，可能会有新的系统推出或者现有系统发生变化。以下列出的系统可能在现在仍然是主流，但也可能存在变化。</p>
-<ol>
-<li>
-<p><strong>Windows 系列：</strong></p>
-<ul>
-<li>Windows 10 是微软公司最新的主流桌面操作系统。</li>
-<li>Windows Server 系列用于服务器环境。</li>
-</ul>
-</li>
-<li>
-<p><strong>macOS：</strong></p>
-<ul>
-<li>macOS 是苹果公司的桌面和笔记本电脑操作系统，用于 Macintosh 计算机。</li>
-</ul>
-</li>
-<li>
-<p><strong>Linux 发行版：</strong></p>
-<ul>
-<li>Linux 是一种开源操作系统内核，有许多不同的发行版，如 Ubuntu、Fedora、Debian、CentOS 等，用于各种应用，包括桌面、服务器和嵌入式系统。</li>
-</ul>
-</li>
-<li>
-<p><strong>Android：</strong></p>
-<ul>
-<li>Android 是谷歌开发的移动设备操作系统，主要用于智能手机和平板电脑。</li>
-</ul>
-</li>
-<li>
-<p><strong>iOS：</strong></p>
-<ul>
-<li>iOS 是苹果公司开发的移动设备操作系统，主要用于 iPhone、iPad 和 iPod Touch。</li>
-</ul>
-</li>
-<li>
-<p><strong>Chrome OS：</strong></p>
-<ul>
-<li>Chrome OS 是由谷歌开发的操作系统，设计用于 Chromebook 等基于云的轻量级计算设备。</li>
-</ul>
-</li>
-<li>
-<p><strong>BSD 系列：</strong></p>
-<ul>
-<li>包括 FreeBSD、OpenBSD、NetBSD 等，它们是基于 BSD（伯克利软件发行版）的开源操作系统。</li>
-</ul>
-</li>
-<li>
-<p><strong>Unix：</strong></p>
-<ul>
-<li>Unix 是一种多用户、多任务操作系统，有多个衍生版本，如 AIX、HP-UX、Solaris 等。</li>
-</ul>
-</li>
-</ol>
-<p>请注意，技术行业变化迅速，新的操作系统可能已经推出，而某些系统可能在主流市场上失去影响力。确保查阅最新的资讯以获取有关当前主流操作系统的准确信息。</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[什么是计算机网络?]]></title>
@@ -574,8 +574,8 @@ HLS 的 m3u8 文件，是一个 TS 的列表，也就是告诉浏览器可以播
             <link>https://osliu.com/blog/2016/02/04/网上冲浪</link>
             <guid>https://osliu.com/blog/2016/02/04/网上冲浪</guid>
             <pubDate>Thu, 04 Feb 2016 00:00:00 GMT</pubDate>
-            <description><![CDATA[35 岁 985 哲学硕士：上千份简历无人问津 做道士都超龄……]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_GyWS" id="35-岁-985-哲学硕士上千份简历无人问津-做道士都超龄">35 岁 985 哲学硕士：上千份简历无人问津 做道士都超龄……<a href="https://osliu.com/blog/2016/02/04/%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA#35-%E5%B2%81-985-%E5%93%B2%E5%AD%A6%E7%A1%95%E5%A3%AB%E4%B8%8A%E5%8D%83%E4%BB%BD%E7%AE%80%E5%8E%86%E6%97%A0%E4%BA%BA%E9%97%AE%E6%B4%A5-%E5%81%9A%E9%81%93%E5%A3%AB%E9%83%BD%E8%B6%85%E9%BE%84" class="hash-link" aria-label="35 岁 985 哲学硕士：上千份简历无人问津 做道士都超龄……的直接链接" title="35 岁 985 哲学硕士：上千份简历无人问津 做道士都超龄……的直接链接">​</a></h2>
+            <description><![CDATA[35 岁 985 哲学硕士：上千份简历无人问津 做道士都超龄。。。]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_GyWS" id="35-岁-985-哲学硕士上千份简历无人问津-做道士都超龄">35 岁 985 哲学硕士：上千份简历无人问津 做道士都超龄。。。<a href="https://osliu.com/blog/2016/02/04/%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA#35-%E5%B2%81-985-%E5%93%B2%E5%AD%A6%E7%A1%95%E5%A3%AB%E4%B8%8A%E5%8D%83%E4%BB%BD%E7%AE%80%E5%8E%86%E6%97%A0%E4%BA%BA%E9%97%AE%E6%B4%A5-%E5%81%9A%E9%81%93%E5%A3%AB%E9%83%BD%E8%B6%85%E9%BE%84" class="hash-link" aria-label="35 岁 985 哲学硕士：上千份简历无人问津 做道士都超龄。。。的直接链接" title="35 岁 985 哲学硕士：上千份简历无人问津 做道士都超龄。。。的直接链接">​</a></h2>
 <p><a href="https://www.bilibili.com/video/BV1yz4y1e72b/?t=387.9" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1yz4y1e72b/?t=387.9</a></p>]]></content:encoded>
         </item>
     </channel>
