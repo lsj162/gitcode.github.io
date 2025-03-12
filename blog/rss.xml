@@ -25,6 +25,7 @@
             <description><![CDATA[Postfix 是什么？]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_jirH" id="postfix-是什么">Postfix 是什么？<a href="https://osliu.com/blog/Postfix%E9%82%AE%E7%AE%B1%E6%9C%8D%E5%8A%A1%E5%99%A8#postfix-%E6%98%AF%E4%BB%80%E4%B9%88" class="hash-link" aria-label="Postfix 是什么？的直接链接" title="Postfix 是什么？的直接链接">​</a></h2>
 <p>邮件服务器，最初在 IBM 研究部门开发，作为广泛使用的 Sendmail 程序的替代品。<a href="http://www.porcupine.org/wietse/" target="_blank" rel="noopener noreferrer">Wietse Venema</a></p>
+<p>那么给实现域名的方式发送邮件是不是很酷。</p>
 <!-- -->
 <h2 class="anchor anchorWithStickyNavbar_jirH" id="为什么选择-postfix-邮件服务器软件">为什么选择 Postfix 邮件服务器软件?<a href="https://osliu.com/blog/Postfix%E9%82%AE%E7%AE%B1%E6%9C%8D%E5%8A%A1%E5%99%A8#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9-postfix-%E9%82%AE%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BD%AF%E4%BB%B6" class="hash-link" aria-label="为什么选择 Postfix 邮件服务器软件?的直接链接" title="为什么选择 Postfix 邮件服务器软件?的直接链接">​</a></h2>
 <p>Postfix（推荐，Linux 上最流行），Postfix 是开源的邮件服务器软件，并且在安全性方面非常出色。</p>
@@ -62,7 +63,11 @@
 <p>反向 DNS 解析，确保你的邮件服务器域名与 rDNS 匹配，否则邮件容易被判为垃圾邮件！</p>
 <div class="language-shell codeBlockContainer_xCgK theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QzcU"><pre tabindex="0" class="prism-code language-shell codeBlock_eICo thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_S361"><span class="token-line" style="color:#393A34"><span class="token plain">dig -x 192.168.1.100</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 100.1.168.192.in-addr.arpa. PTR mail.example.com.</span><br></span></code></pre><div class="buttonGroup_kgaP"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_O83D" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_C2Wz"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_MBW4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h3 class="anchor anchorWithStickyNavbar_jirH" id="重启">重启<a href="https://osliu.com/blog/Postfix%E9%82%AE%E7%AE%B1%E6%9C%8D%E5%8A%A1%E5%99%A8#%E9%87%8D%E5%90%AF" class="hash-link" aria-label="重启的直接链接" title="重启的直接链接">​</a></h3>
-<div class="language-shell codeBlockContainer_xCgK theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QzcU"><pre tabindex="0" class="prism-code language-shell codeBlock_eICo thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_S361"><span class="token-line" style="color:#393A34"><span class="token plain">systemctl restart opendkim postfix</span><br></span></code></pre><div class="buttonGroup_kgaP"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_O83D" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_C2Wz"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_MBW4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
+<div class="language-shell codeBlockContainer_xCgK theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QzcU"><pre tabindex="0" class="prism-code language-shell codeBlock_eICo thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_S361"><span class="token-line" style="color:#393A34"><span class="token plain">systemctl restart opendkim postfix</span><br></span></code></pre><div class="buttonGroup_kgaP"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_O83D" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_C2Wz"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_MBW4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="theme-admonition theme-admonition-tip admonition_lMxz alert alert--success"><div class="admonitionHeading_qtwq"><span class="admonitionIcon_Gdwp"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>提示</div><div class="admonitionContent_YeTd"><p>看上去，城楼之下，人人皆可传递纸飞机。向着城楼飞去，要想飞过城楼是不能的（25 端口高危）。
+高高的城墙紧关的大门，就算是翻上了城楼也会被士兵拦下是否有专属令牌，才可以进入城内，城内那可是眼花缭乱，因为它们还可以链接着世界之城。
+要是混熟了，搞得一枚令牌天天跑着，那也得交个混熟的费用。（比如免费流量总计 100 条，超过计费）。
+<a href="https://postmarkapp.com/pricing" target="_blank" rel="noopener noreferrer">对比邮箱价格</a></p></div></div>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Markdown 语法格式]]></title>
@@ -151,6 +156,26 @@
 <p><a href="https://www.odaily.news/post/5192190" target="_blank" rel="noopener noreferrer">PKU BLOCKCHAIN：写给前端开发者的 Web3 入门指南</a></p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[前端如何架构]]></title>
+            <link>https://osliu.com/blog/前端如何架构</link>
+            <guid>https://osliu.com/blog/前端如何架构</guid>
+            <pubDate>Mon, 13 Sep 2021 10:00:00 GMT</pubDate>
+            <description><![CDATA[以电商平台为例。]]></description>
+            <content:encoded><![CDATA[<p>以电商平台为例。</p>
+<h2 class="anchor anchorWithStickyNavbar_jirH" id="1-技术选型">1. 技术选型？<a href="https://osliu.com/blog/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%9E%B6%E6%9E%84#1-%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B" class="hash-link" aria-label="1. 技术选型？的直接链接" title="1. 技术选型？的直接链接">​</a></h2>
+<p>首先我们可能考虑主流前沿技术，比如 react，vue。
+然后搭建一个自动智能工具的开发环境。</p>
+<h2 class="anchor anchorWithStickyNavbar_jirH" id="我们考虑是否要支持-seo">我们考虑是否要支持 seo？<a href="https://osliu.com/blog/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%9E%B6%E6%9E%84#%E6%88%91%E4%BB%AC%E8%80%83%E8%99%91%E6%98%AF%E5%90%A6%E8%A6%81%E6%94%AF%E6%8C%81-seo" class="hash-link" aria-label="我们考虑是否要支持 seo？的直接链接" title="我们考虑是否要支持 seo？的直接链接">​</a></h2>
+<p>这里又涉及到以上技术的技术框架选型。比如 nextjs，nuxtjs（当然还有很多其他可选）。</p>
+<h2 class="anchor anchorWithStickyNavbar_jirH" id="考虑搭建平台用户端系统">考虑搭建平台用户端系统？<a href="https://osliu.com/blog/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%9E%B6%E6%9E%84#%E8%80%83%E8%99%91%E6%90%AD%E5%BB%BA%E5%B9%B3%E5%8F%B0%E7%94%A8%E6%88%B7%E7%AB%AF%E7%B3%BB%E7%BB%9F" class="hash-link" aria-label="考虑搭建平台用户端系统？的直接链接" title="考虑搭建平台用户端系统？的直接链接">​</a></h2>
+<p>代码模块化实现业务，那么当业务独立是否考虑微服务。比如：用户端客服系统。统一登录注册中心系统。</p>
+<h2 class="anchor anchorWithStickyNavbar_jirH" id="考虑搭建平台后台管理系统">考虑搭建平台后台管理系统？<a href="https://osliu.com/blog/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%9E%B6%E6%9E%84#%E8%80%83%E8%99%91%E6%90%AD%E5%BB%BA%E5%B9%B3%E5%8F%B0%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F" class="hash-link" aria-label="考虑搭建平台后台管理系统？的直接链接" title="考虑搭建平台后台管理系统？的直接链接">​</a></h2>
+<p>后端管理数据，管理员，审核等一系例操作系统。</p>
+<h2 class="anchor anchorWithStickyNavbar_jirH" id="开发提交测试">开发提交测试？<a href="https://osliu.com/blog/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%9E%B6%E6%9E%84#%E5%BC%80%E5%8F%91%E6%8F%90%E4%BA%A4%E6%B5%8B%E8%AF%95" class="hash-link" aria-label="开发提交测试？的直接链接" title="开发提交测试？的直接链接">​</a></h2>
+<p>没有经过测试上线必然挂掉（100%可能）。那么测试技术工具又如何选择。比如 jest。还是人工肝。</p>
+<h2></h2>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[后端如何架构]]></title>
             <link>https://osliu.com/blog/后端如何架构</link>
             <guid>https://osliu.com/blog/后端如何架构</guid>
@@ -213,35 +238,9 @@
 <h2 class="anchor anchorWithStickyNavbar_jirH" id="nextra">nextra<a href="https://osliu.com/blog/%E6%96%87%E6%A1%A3%E5%B7%A5%E5%85%B7#nextra" class="hash-link" aria-label="nextra的直接链接" title="nextra的直接链接">​</a></h2>
 <p>额，一般</p>
 <h2 class="anchor anchorWithStickyNavbar_jirH" id="docusaurus">docusaurus<a href="https://osliu.com/blog/%E6%96%87%E6%A1%A3%E5%B7%A5%E5%85%B7#docusaurus" class="hash-link" aria-label="docusaurus的直接链接" title="docusaurus的直接链接">​</a></h2>
-<p>好用</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[显卡]]></title>
-            <link>https://osliu.com/blog/显卡/显卡</link>
-            <guid>https://osliu.com/blog/显卡/显卡</guid>
-            <pubDate>Mon, 13 Sep 2021 10:00:00 GMT</pubDate>
-            <description><![CDATA[【硬核科普】从零开始认识显卡 https://youtu.be/]]></description>
-            <content:encoded><![CDATA[<p><a href="https://youtu.be/vtR7cgYATdk?si=ooKekaw6Hzkm_ms2" target="_blank" rel="noopener noreferrer">【硬核科普】从零开始认识显卡 https://youtu.be/</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[前端如何架构]]></title>
-            <link>https://osliu.com/blog/前端如何架构</link>
-            <guid>https://osliu.com/blog/前端如何架构</guid>
-            <pubDate>Mon, 13 Sep 2021 10:00:00 GMT</pubDate>
-            <description><![CDATA[以电商平台为例。]]></description>
-            <content:encoded><![CDATA[<p>以电商平台为例。</p>
-<h2 class="anchor anchorWithStickyNavbar_jirH" id="1-技术选型">1. 技术选型？<a href="https://osliu.com/blog/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%9E%B6%E6%9E%84#1-%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B" class="hash-link" aria-label="1. 技术选型？的直接链接" title="1. 技术选型？的直接链接">​</a></h2>
-<p>首先我们可能考虑主流前沿技术，比如 react，vue。
-然后搭建一个自动智能工具的开发环境。</p>
-<h2 class="anchor anchorWithStickyNavbar_jirH" id="我们考虑是否要支持-seo">我们考虑是否要支持 seo？<a href="https://osliu.com/blog/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%9E%B6%E6%9E%84#%E6%88%91%E4%BB%AC%E8%80%83%E8%99%91%E6%98%AF%E5%90%A6%E8%A6%81%E6%94%AF%E6%8C%81-seo" class="hash-link" aria-label="我们考虑是否要支持 seo？的直接链接" title="我们考虑是否要支持 seo？的直接链接">​</a></h2>
-<p>这里又涉及到以上技术的技术框架选型。比如 nextjs，nuxtjs（当然还有很多其他可选）。</p>
-<h2 class="anchor anchorWithStickyNavbar_jirH" id="考虑搭建平台用户端系统">考虑搭建平台用户端系统？<a href="https://osliu.com/blog/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%9E%B6%E6%9E%84#%E8%80%83%E8%99%91%E6%90%AD%E5%BB%BA%E5%B9%B3%E5%8F%B0%E7%94%A8%E6%88%B7%E7%AB%AF%E7%B3%BB%E7%BB%9F" class="hash-link" aria-label="考虑搭建平台用户端系统？的直接链接" title="考虑搭建平台用户端系统？的直接链接">​</a></h2>
-<p>代码模块化实现业务，那么当业务独立是否考虑微服务。比如：用户端客服系统。统一登录注册中心系统。</p>
-<h2 class="anchor anchorWithStickyNavbar_jirH" id="考虑搭建平台后台管理系统">考虑搭建平台后台管理系统？<a href="https://osliu.com/blog/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%9E%B6%E6%9E%84#%E8%80%83%E8%99%91%E6%90%AD%E5%BB%BA%E5%B9%B3%E5%8F%B0%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F" class="hash-link" aria-label="考虑搭建平台后台管理系统？的直接链接" title="考虑搭建平台后台管理系统？的直接链接">​</a></h2>
-<p>后端管理数据，管理员，审核等一系例操作系统。</p>
-<h2 class="anchor anchorWithStickyNavbar_jirH" id="开发提交测试">开发提交测试？<a href="https://osliu.com/blog/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%9E%B6%E6%9E%84#%E5%BC%80%E5%8F%91%E6%8F%90%E4%BA%A4%E6%B5%8B%E8%AF%95" class="hash-link" aria-label="开发提交测试？的直接链接" title="开发提交测试？的直接链接">​</a></h2>
-<p>没有经过测试上线必然挂掉（100%可能）。那么测试技术工具又如何选择。比如 jest。还是人工肝。</p>
-<h2></h2>]]></content:encoded>
+<p>好用</p>
+<h2 class="anchor anchorWithStickyNavbar_jirH" id="pmnd">pmnd<a href="https://osliu.com/blog/%E6%96%87%E6%A1%A3%E5%B7%A5%E5%85%B7#pmnd" class="hash-link" aria-label="pmnd的直接链接" title="pmnd的直接链接">​</a></h2>
+<p><a href="https://docs.pmnd.rs/" target="_blank" rel="noopener noreferrer">mdx 静态文档生成器</a></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[设计师软件]]></title>
@@ -265,6 +264,14 @@
 <p>游戏开发建模</p>
 <h2 class="anchor anchorWithStickyNavbar_jirH" id="unrealengine">Unrealengine<a href="https://osliu.com/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#unrealengine" class="hash-link" aria-label="Unrealengine的直接链接" title="Unrealengine的直接链接">​</a></h2>
 <p>游戏开发建模</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[显卡]]></title>
+            <link>https://osliu.com/blog/显卡/显卡</link>
+            <guid>https://osliu.com/blog/显卡/显卡</guid>
+            <pubDate>Mon, 13 Sep 2021 10:00:00 GMT</pubDate>
+            <description><![CDATA[【硬核科普】从零开始认识显卡 https://youtu.be/]]></description>
+            <content:encoded><![CDATA[<p><a href="https://youtu.be/vtR7cgYATdk?si=ooKekaw6Hzkm_ms2" target="_blank" rel="noopener noreferrer">【硬核科普】从零开始认识显卡 https://youtu.be/</a></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[一度流量主播]]></title>
