@@ -8,14 +8,6 @@
     <subtitle>_ | Blog</subtitle>
     <icon>https://devjs.osliu.cn/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[unsplash]]></title>
-        <id>https://devjs.osliu.cn/blog/Unsplash</id>
-        <link href="https://devjs.osliu.cn/blog/Unsplash"/>
-        <updated>2025-01-01T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[世界上最强大的照片引擎。unsplash.com]]></summary>
-        <content type="html"><![CDATA[<p>世界上最强大的照片引擎。<a href="https://unsplash.com/developers" target="_blank" rel="noopener noreferrer">unsplash.com</a></p>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Postfix]]></title>
         <id>https://devjs.osliu.cn/blog/Postfix</id>
         <link href="https://devjs.osliu.cn/blog/Postfix"/>
@@ -77,6 +69,99 @@
 要是混熟了，搞得一枚令牌天天跑着，那也得交个混熟的费用。（每个士兵接待流量 100 条左右，超过计服务费）。</p><p><a href="https://postmarkapp.com/pricing" target="_blank" rel="noopener noreferrer">对比邮箱价格</a></p></div></div>
 <h1>参考链接</h1>
 <p><a href="https://www.postfix.org/documentation.html" target="_blank" rel="noopener noreferrer">https://www.postfix.org/documentation.html</a></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[unsplash]]></title>
+        <id>https://devjs.osliu.cn/blog/Unsplash</id>
+        <link href="https://devjs.osliu.cn/blog/Unsplash"/>
+        <updated>2025-01-01T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[世界上最强大的照片引擎。unsplash.com]]></summary>
+        <content type="html"><![CDATA[<p>世界上最强大的照片引擎。<a href="https://unsplash.com/developers" target="_blank" rel="noopener noreferrer">unsplash.com</a></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fiddler 抓包调试工具]]></title>
+        <id>https://devjs.osliu.cn/blog/Fiddler 抓包调试工具</id>
+        <link href="https://devjs.osliu.cn/blog/Fiddler 抓包调试工具"/>
+        <updated>2021-09-13T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Fiddler Everywhere 可让您捕获、分析、修改和重放网络流量，包括 SignalR、WebSockets、MessagePack、SSE、gRPC、Protobuf。]]></summary>
+        <content type="html"><![CDATA[<p>Fiddler Everywhere 可让您捕获、分析、修改和重放网络流量，包括 SignalR、WebSockets、MessagePack、SSE、gRPC、Protobuf。
+它允许您以无与伦比的可视性拦截和检查 HTTP 请求、响应、标头、cookie 和有效负载，从而实现对网络相关问题的精确诊断和快速解决。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Postman API工具]]></title>
+        <id>https://devjs.osliu.cn/blog/Postman API工具</id>
+        <link href="https://devjs.osliu.cn/blog/Postman API工具"/>
+        <updated>2021-09-13T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Postman 是一家源自印度的全球软件公司，为开发人员提供 API 平台，以设计、构建、测试 API 并进行协作。]]></summary>
+        <content type="html"><![CDATA[<p>Postman 是一家源自印度的全球软件公司，为开发人员提供 API 平台，以设计、构建、测试 API 并进行协作。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[前端开发中常见的术语]]></title>
+        <id>https://devjs.osliu.cn/blog/前端开发中常见的术语</id>
+        <link href="https://devjs.osliu.cn/blog/前端开发中常见的术语"/>
+        <updated>2021-09-13T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[前端开发中有一些常见的术语，用来描述工具或技术。]]></summary>
+        <content type="html"><![CDATA[<p>前端开发中有一些常见的术语，用来描述工具或技术。</p>
+<!-- -->
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="库library">库（Library）<a href="https://devjs.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E6%9C%AF%E8%AF%AD#%E5%BA%93library" class="hash-link" aria-label="库（Library）的直接链接" title="库（Library）的直接链接">​</a></h2>
+<ul>
+<li>定义：库是一组功能集合，通常是调用库中的方法来完成任务。<!-- -->
+<ul>
+<li>Lodash：提供实用的工具函数，如数组、对象、函数等的操作。</li>
+<li>Axios：一个简洁的 HTTP 客户端库，用于发送网络请求。</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="框架framework">框架（Framework）<a href="https://devjs.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E6%9C%AF%E8%AF%AD#%E6%A1%86%E6%9E%B6framework" class="hash-link" aria-label="框架（Framework）的直接链接" title="框架（Framework）的直接链接">​</a></h2>
+<ul>
+<li>定义：框架管理程序结构，通常是框架控制应用程序的流和方法。<!-- -->
+<ul>
+<li>React：提供了组件化的开发方式</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="插件plugin">插件（Plugin）<a href="https://devjs.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E6%9C%AF%E8%AF%AD#%E6%8F%92%E4%BB%B6plugin" class="hash-link" aria-label="插件（Plugin）的直接链接" title="插件（Plugin）的直接链接">​</a></h2>
+<ul>
+<li>定义：扩展现有工具或框架的功能。<!-- -->
+<ul>
+<li>Vue 插件：比如 vue-router（用于路由管理），vuex（状态管理插件）。</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="模板template">模板（Template）<a href="https://devjs.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E6%9C%AF%E8%AF%AD#%E6%A8%A1%E6%9D%BFtemplate" class="hash-link" aria-label="模板（Template）的直接链接" title="模板（Template）的直接链接">​</a></h2>
+<ul>
+<li>定义：模板是一种用于快速生成特定类型项目或页面的预设结构。<!-- -->
+<ul>
+<li>React Boilerplate：提供一个默认的 React 项目模板。</li>
+<li>Next.js Starter Template：一个 Next.js 项目模板，适用于常见的前端应用。</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="工具tool">工具（Tool）<a href="https://devjs.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E6%9C%AF%E8%AF%AD#%E5%B7%A5%E5%85%B7tool" class="hash-link" aria-label="工具（Tool）的直接链接" title="工具（Tool）的直接链接">​</a></h2>
+<ul>
+<li>定义：工具通常指的是一类为特定目的或任务开发的软件。<!-- -->
+<ul>
+<li>Webpack：一个模块打包工具</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="cli命令行工具">CLI（命令行工具）<a href="https://devjs.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E6%9C%AF%E8%AF%AD#cli%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="CLI（命令行工具）的直接链接" title="CLI（命令行工具）的直接链接">​</a></h2>
+<ul>
+<li>定义：CLI（Command Line Interface）工具通常是通过命令行接口操作的工具。<!-- -->
+<ul>
+<li>Next.js CLI：用于创建和管理 Next.js 项目的命令行工具。</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="micro-frontend微前端">Micro-Frontend（微前端）<a href="https://devjs.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E6%9C%AF%E8%AF%AD#micro-frontend%E5%BE%AE%E5%89%8D%E7%AB%AF" class="hash-link" aria-label="Micro-Frontend（微前端）的直接链接" title="Micro-Frontend（微前端）的直接链接">​</a></h2>
+<ul>
+<li>定义：微前端是将一个大型前端应用分割成多个较小、独立的前端应用的架构方式。每个微前端可以使用不同的技术栈、版本，甚至是独立开发和部署。<!-- -->
+<ul>
+<li>Single-SPA：一个 JavaScript 框架，用于实现微前端架构，允许多个前端框架在同一个页面中运行。</li>
+<li>Module Federation：Webpack 5 提供的一个新特性，支持在不同的 Web 应用之间共享模块。</li>
+</ul>
+</li>
+</ul>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[显卡]]></title>
