@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-前端/HTML（DOM对象模型）/API 手册/Document Event/index" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.7.0">
+<title data-rh="true">Document Event | _ |</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://devjs.osliu.top/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://devjs.osliu.top/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://devjs.osliu.top/docs/前端/HTML（DOM对象模型）/API 手册/Document Event/"><meta data-rh="true" property="og:locale" content="zh_Hans"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="keywords" content="_ |, blog"><meta data-rh="true" name="generator" content="_ |"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Document Event | _ |"><meta data-rh="true" name="description" content="列出了使用 addEventListener() 或为接口的事件处理器属性 oneventname 赋值的方式来监听的事件。"><meta data-rh="true" property="og:description" content="列出了使用 addEventListener() 或为接口的事件处理器属性 oneventname 赋值的方式来监听的事件。"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://devjs.osliu.top/docs/前端/HTML（DOM对象模型）/API 手册/Document Event/"><link data-rh="true" rel="alternate" href="https://devjs.osliu.top/docs/前端/HTML（DOM对象模型）/API 手册/Document Event/" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://devjs.osliu.top/docs/前端/HTML（DOM对象模型）/API 手册/Document Event/" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="_ | RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="_ | Atom Feed">
+
+
+
+
+<link rel="stylesheet" href="/katex/katex.min.css"><link rel="stylesheet" href="/assets/css/styles.987df26b.css">
+<script src="/assets/js/runtime~main.0e0ffbf0.js" defer="defer"></script>
+<script src="/assets/js/main.c69f7fa7.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/logo.svg"><div role="region" aria-label="跳到主要内容"><a class="skipToContent_l8S9" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><nav aria-label="主导航" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.svg" alt="Logo" class="themedComponent_UWSq themedComponent--light_hctz"><img src="/img/logo.svg" alt="Logo" class="themedComponent_UWSq themedComponent--dark_GhMx"></div><b class="navbar__title text--truncate">_ |</b></a><a class="navbar__item navbar__link" href="/docs/计算机编程/curl/">计算机编程 🚧</a><a class="navbar__item navbar__link" href="/docs/操作系统/Linux/Vi文本编辑/">操作系统</a><a class="navbar__item navbar__link" href="/docs/可视化/Canvas/API/">可视化 ⛰️</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/前端/Css/">前端 ⛰️</a><a class="navbar__item navbar__link" href="/docs/小程序/">小程序 ⛰️</a><a class="navbar__item navbar__link" href="/docs/后端/Nginx/">后端 🎉</a><a class="navbar__item navbar__link" href="/docs/客户端/Dioxus/">客户端 🔚</a><a class="navbar__item navbar__link" href="/blog">博客</a></div><div class="navbar__items navbar__items--right"><div class="toggle_SoL0 colorModeToggle_FolZ"><button class="clean-btn toggleButton_a4Ot toggleButtonDisabled_w_vz" type="button" disabled="" title="切换浅色/暗黑模式（当前为浅色模式）" aria-label="切换浅色/暗黑模式（当前为浅色模式）" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_r5a1"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_Ogig"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_XWPm"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_eyqa"><div class="docsWrapper_sBnz"><button aria-label="回到顶部" class="clean-btn theme-back-to-top-button backToTopButton_sel1" type="button"></button><div class="docRoot_WX_E"><aside class="theme-doc-sidebar-container docSidebarContainer_JBLQ"><div class="sidebarViewport_X5Zf"><div class="sidebar_m8HM"><nav aria-label="文档侧边栏" class="menu thin-scrollbar menu_PVU4"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/前端/Css/">CSS</a><button aria-label="展开侧边栏分类 &#x27;CSS&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/前端/EcmaScript/EcmaScript2015/ArrayBuffer 对象/">EcmaScript</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/docs/前端/HTML（DOM对象模型）/">HTML</a><button aria-label="折叠侧边栏分类 &#x27;HTML&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/docs/前端/HTML（DOM对象模型）/API 手册/DOM/">API 手册</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/前端/HTML（DOM对象模型）/API 手册/DOM/">DOM 文档对象模型 Document Object Model</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/前端/HTML（DOM对象模型）/API 手册/Document/">Document</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item"><div class="menu__list-item-collapsible menu__list-item-collapsible--active"><a class="menu__link menu__link--sublist menu__link--active" aria-current="page" tabindex="0" href="/docs/前端/HTML（DOM对象模型）/API 手册/Document Event/">Document Event</a><button aria-label="折叠侧边栏分类 &#x27;Document Event&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/前端/HTML（DOM对象模型）/API 手册/Document Event/兼容性/">兼容性</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/docs/前端/HTML（DOM对象模型）/API 手册/Element/">Element</a><button aria-label="展开侧边栏分类 &#x27;Element&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/前端/HTML（DOM对象模型）/API 手册/Node/">Node</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/前端/HTML（DOM对象模型）/API 手册/语义话标签">语义话标签</a></li></ul></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/前端/JavaScript/">JavaScript</a><button aria-label="展开侧边栏分类 &#x27;JavaScript&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/前端/React/">React</a><button aria-label="展开侧边栏分类 &#x27;React&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/前端/Svelte/">Svelte</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/前端/TypeScript/API 手册/">TypeScript</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/前端/Vue/">Vue</a><button aria-label="展开侧边栏分类 &#x27;Vue&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/前端/浏览器（BOM对象模型）/API/Cookies/">浏览器（BOM对象模型）</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/前端/演变/">演变</a><button aria-label="展开侧边栏分类 &#x27;演变&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/前端/编译器工具/astro">编译器工具</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/前端/集成测试/cypress">集成测试</a></div></li></ul></nav></div></div></aside><main class="docMainContainer_xBam"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_P5of"><div class="docItemContainer_2Wqu"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_VW9u" aria-label="页面路径"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="主页面" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_TeOy"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/docs/前端/HTML（DOM对象模型）/"><span itemprop="name">HTML</span></a><meta itemprop="position" content="1"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">API 手册</span><meta itemprop="position" content="2"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Document Event</span><meta itemprop="position" content="3"></li></ul></nav><div class="tocCollapsible_paft theme-doc-toc-mobile tocMobile_CbTh"><button type="button" class="clean-btn tocCollapsibleButton_JR4K">本页总览</button></div><div class="theme-doc-markdown markdown"><header><h1>Document Event</h1></header>
+<p>列出了使用 addEventListener() 或为接口的事件处理器属性 oneventname 赋值的方式来监听的事件。</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="事件">事件<a href="#事件" class="hash-link" aria-label="事件的直接链接" title="事件的直接链接">​</a></h2>
+<p>beforescriptexecute
+在静态的 <code>&lt;script&gt;</code> 开始执行脚本时触发。</p>
+<p>scroll
+在滚动文档视图或元素时触发。</p>
+<p>visibilitychange
+在变前的内容变为可见、隐藏时触发。</p>
+<p>wheel (en-US)
+在用户在点击设备（通常为鼠标）上转动滚轮时触发。</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="动画事件">动画事件<a href="#动画事件" class="hash-link" aria-label="动画事件的直接链接" title="动画事件的直接链接">​</a></h2>
+<p>animationcancel (en-US)
+在动画意外中止时触发。</p>
+<p>animationend (en-US)
+在动画正常完成时触发。</p>
+<p>animationiteration (en-US)
+在动画迭代完成时触发。</p>
+<p>animationstart (en-US)
+在动画开始时触发。</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="剪切板事件">剪切板事件<a href="#剪切板事件" class="hash-link" aria-label="剪切板事件的直接链接" title="剪切板事件的直接链接">​</a></h2>
+<p>copy (en-US)
+在用户通过浏览器的用户界面使用复制操作时触发。</p>
+<p>cut (en-US)
+在用户通过浏览器的用户界面使用剪切操作时触发。</p>
+<p>paste (en-US)
+在用户通过浏览器的用户界面使用粘贴操作时触发。</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="拖放事件">拖放事件<a href="#拖放事件" class="hash-link" aria-label="拖放事件的直接链接" title="拖放事件的直接链接">​</a></h2>
+<p>drag
+在用户拖动元素或选择的文本时每几百毫秒触发一次。</p>
+<p>dragend
+在拖动操作结束（通过释放鼠标按钮或按下退出键））时触发。</p>
+<p>dragenter
+在拖动的元素或选择的文本进入有效的放置目标时触发。</p>
+<p>dragleave
+在拖动的元素或选择的文本离开有效的放置目标时触发。</p>
+<p>dragover
+在拖动的元素或选择的文本在有效的放置目标时触发（每几百毫秒）。</p>
+<p>dragstart
+在用户开始拖动元素或选择的文本时触发。</p>
+<p>drop
+在元素或选择的文本被放置在有效的放置目标时触发。</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="全屏事件">全屏事件<a href="#全屏事件" class="hash-link" aria-label="全屏事件的直接链接" title="全屏事件的直接链接">​</a></h2>
+<p>fullscreenchange
+在 Document 进入或退出全屏模式时触发。</p>
+<p>fullscreenerror
+在尝试进入或退出全屏模式而发生错误时触发。</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="键盘事件">键盘事件<a href="#键盘事件" class="hash-link" aria-label="键盘事件的直接链接" title="键盘事件的直接链接">​</a></h2>
+<p>keydown (en-US)
+在某个键被按下时触发。</p>
+<p>keyup (en-US)
+在释放按键时触发。</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="加载和卸载事件">加载和卸载事件<a href="#加载和卸载事件" class="hash-link" aria-label="加载和卸载事件的直接链接" title="加载和卸载事件的直接链接">​</a></h2>
+<p>DOMContentLoaded
+在文档完全加载并解析后触发，无需等待样式表、图像和子框架完成加载。</p>
+<p>readystatechange
+在文档的 readyState 属性发生变化时触发。</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="指针事件">指针事件<a href="#指针事件" class="hash-link" aria-label="指针事件的直接链接" title="指针事件的直接链接">​</a></h2>
+<p>gotpointercapture (en-US)
+在使用 setPointerCapture() 捕获元素时触发。</p>
+<p>lostpointercapture (en-US)
+在捕获指针释放时触发。</p>
+<p>pointercancel (en-US)
+在指针事件取消时触发。</p>
+<p>pointerdown (en-US)
+在指针变为活动状态时触发。</p>
+<p>pointerenter (en-US)
+在指针移入到元素或其子元素之一的命中测试边界时触发。</p>
+<p>pointerleave (en-US)
+在指针移出元素的命中测试边界时触发。</p>
+<p>pointerlockchange
+在指针被锁定或解锁时触发。</p>
+<p>pointerlockerror (en-US)
+在指针锁定失败时触发。</p>
+<p>pointermove (en-US)
+在指针坐标改变时触发。</p>
+<p>pointerout (en-US)
+在指正移除元素的命中测试边界（或其他原因）时触发。</p>
+<p>pointerover (en-US)
+在指针移入元素的命中测试边界时触发。</p>
+<p>pointerup (en-US)
+在指针不再活动时触发。</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="选择事件">选择事件<a href="#选择事件" class="hash-link" aria-label="选择事件的直接链接" title="选择事件的直接链接">​</a></h2>
+<p>selectionchange
+在文档中的选中的文本发生改变时触发。</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="触摸事件">触摸事件<a href="#触摸事件" class="hash-link" aria-label="触摸事件的直接链接" title="触摸事件的直接链接">​</a></h2>
+<p>touchcancel
+在一个或多个接触点以特定于实现的方式中断（例如，创建了太多的接触点）时触发。</p>
+<p>touchend
+在从接触面移除一个或多个接触点时触发。</p>
+<p>touchmove
+在一个或多个接触点沿接触面移动时触发。</p>
+<p>touchstart
+在向接触面放置一个或多个接触点时触发。</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="过渡事件">过渡事件<a href="#过渡事件" class="hash-link" aria-label="过渡事件的直接链接" title="过渡事件的直接链接">​</a></h2>
+<p>transitioncancel (en-US)
+在 CSS 过渡取消时触发。</p>
+<p>transitionend (en-US)
+在 CSS 过渡完成时触发。</p>
+<p>transitionrun (en-US)
+在 CSS 过渡第一次创建时触发。</p>
+<p>transitionstart (en-US)
+在 CSS 过渡实际开始时触发。</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/docs/前端/HTML（DOM对象模型）/API 手册/Document Event/index.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_skTv" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>编辑此页</a></div><div class="col lastUpdated__mdx"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/前端/HTML（DOM对象模型）/API 手册/Document/"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">Document</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/前端/HTML（DOM对象模型）/API 手册/Document Event/兼容性/"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">兼容性</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_AIX6 thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#事件" class="table-of-contents__link toc-highlight">事件</a></li><li><a href="#动画事件" class="table-of-contents__link toc-highlight">动画事件</a></li><li><a href="#剪切板事件" class="table-of-contents__link toc-highlight">剪切板事件</a></li><li><a href="#拖放事件" class="table-of-contents__link toc-highlight">拖放事件</a></li><li><a href="#全屏事件" class="table-of-contents__link toc-highlight">全屏事件</a></li><li><a href="#键盘事件" class="table-of-contents__link toc-highlight">键盘事件</a></li><li><a href="#加载和卸载事件" class="table-of-contents__link toc-highlight">加载和卸载事件</a></li><li><a href="#指针事件" class="table-of-contents__link toc-highlight">指针事件</a></li><li><a href="#选择事件" class="table-of-contents__link toc-highlight">选择事件</a></li><li><a href="#触摸事件" class="table-of-contents__link toc-highlight">触摸事件</a></li><li><a href="#过渡事件" class="table-of-contents__link toc-highlight">过渡事件</a></li></ul></div></div></div></div></main></div></div></div></div>
+</body>
+</html>

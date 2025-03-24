@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-前端/Css/API 手册/Flex布局/index" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.7.0">
+<title data-rh="true">Flex 布局 | _ |</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://devjs.osliu.top/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://devjs.osliu.top/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://devjs.osliu.top/docs/前端/Css/API 手册/Flex布局/"><meta data-rh="true" property="og:locale" content="zh_Hans"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="keywords" content="_ |, blog"><meta data-rh="true" name="generator" content="_ |"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Flex 布局 | _ |"><meta data-rh="true" name="description" content="Flexbox 布局？"><meta data-rh="true" property="og:description" content="Flexbox 布局？"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://devjs.osliu.top/docs/前端/Css/API 手册/Flex布局/"><link data-rh="true" rel="alternate" href="https://devjs.osliu.top/docs/前端/Css/API 手册/Flex布局/" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://devjs.osliu.top/docs/前端/Css/API 手册/Flex布局/" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="_ | RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="_ | Atom Feed">
+
+
+
+
+<link rel="stylesheet" href="/katex/katex.min.css"><link rel="stylesheet" href="/assets/css/styles.987df26b.css">
+<script src="/assets/js/runtime~main.0e0ffbf0.js" defer="defer"></script>
+<script src="/assets/js/main.c69f7fa7.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/logo.svg"><div role="region" aria-label="跳到主要内容"><a class="skipToContent_l8S9" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><nav aria-label="主导航" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.svg" alt="Logo" class="themedComponent_UWSq themedComponent--light_hctz"><img src="/img/logo.svg" alt="Logo" class="themedComponent_UWSq themedComponent--dark_GhMx"></div><b class="navbar__title text--truncate">_ |</b></a><a class="navbar__item navbar__link" href="/docs/计算机编程/curl/">计算机编程 🚧</a><a class="navbar__item navbar__link" href="/docs/操作系统/Linux/Vi文本编辑/">操作系统</a><a class="navbar__item navbar__link" href="/docs/可视化/Canvas/API/">可视化 ⛰️</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/前端/Css/">前端 ⛰️</a><a class="navbar__item navbar__link" href="/docs/小程序/">小程序 ⛰️</a><a class="navbar__item navbar__link" href="/docs/后端/Nginx/">后端 🎉</a><a class="navbar__item navbar__link" href="/docs/客户端/Dioxus/">客户端 🔚</a><a class="navbar__item navbar__link" href="/blog">博客</a></div><div class="navbar__items navbar__items--right"><div class="toggle_SoL0 colorModeToggle_FolZ"><button class="clean-btn toggleButton_a4Ot toggleButtonDisabled_w_vz" type="button" disabled="" title="切换浅色/暗黑模式（当前为浅色模式）" aria-label="切换浅色/暗黑模式（当前为浅色模式）" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_r5a1"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_Ogig"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_XWPm"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_eyqa"><div class="docsWrapper_sBnz"><button aria-label="回到顶部" class="clean-btn theme-back-to-top-button backToTopButton_sel1" type="button"></button><div class="docRoot_WX_E"><aside class="theme-doc-sidebar-container docSidebarContainer_JBLQ"><div class="sidebarViewport_X5Zf"><div class="sidebar_m8HM"><nav aria-label="文档侧边栏" class="menu thin-scrollbar menu_PVU4"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/docs/前端/Css/">CSS</a><button aria-label="折叠侧边栏分类 &#x27;CSS&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/docs/前端/Css/API 手册/@ 规则/">API 手册</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/前端/Css/API 手册/@ 规则/">@ 规则</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/前端/Css/API 手册/CSS 伪元素/">伪元素</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/前端/Css/API 手册/CSS 伪类/">CSS 伪类</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/前端/Css/API 手册/CSS 动画/">CSS 动画</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/前端/Css/API 手册/CSS 变换/">CSS 变换</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/前端/Css/API 手册/CSS 过渡/">CSS 过渡</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/前端/Css/API 手册/Flex布局/">Flex 布局</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/前端/Css/API 手册/Grid布局/">Grid 布局</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/前端/Css/API 手册/基础/CSS常见的简写属性">基础</a></div></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/前端/Css/Sass/import">Sass</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/前端/Css/postcss/">postcss</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/前端/Css/styledComponents/">styledComponents</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/前端/Css/tailwindcss/tailwind">tailwindcss</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/前端/Css/unocss/">unocss</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/前端/EcmaScript/EcmaScript2015/ArrayBuffer 对象/">EcmaScript</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/前端/HTML（DOM对象模型）/">HTML</a><button aria-label="展开侧边栏分类 &#x27;HTML&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/前端/JavaScript/">JavaScript</a><button aria-label="展开侧边栏分类 &#x27;JavaScript&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/前端/React/">React</a><button aria-label="展开侧边栏分类 &#x27;React&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/前端/Svelte/">Svelte</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/前端/TypeScript/API 手册/">TypeScript</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/前端/Vue/">Vue</a><button aria-label="展开侧边栏分类 &#x27;Vue&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/前端/浏览器（BOM对象模型）/API/Cookies/">浏览器（BOM对象模型）</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/前端/演变/">演变</a><button aria-label="展开侧边栏分类 &#x27;演变&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/前端/编译器工具/astro">编译器工具</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/前端/集成测试/cypress">集成测试</a></div></li></ul></nav></div></div></aside><main class="docMainContainer_xBam"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_P5of"><div class="docItemContainer_2Wqu"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_VW9u" aria-label="页面路径"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="主页面" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_TeOy"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/docs/前端/Css/"><span itemprop="name">CSS</span></a><meta itemprop="position" content="1"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">API 手册</span><meta itemprop="position" content="2"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Flex 布局</span><meta itemprop="position" content="3"></li></ul></nav><div class="tocCollapsible_paft theme-doc-toc-mobile tocMobile_CbTh"><button type="button" class="clean-btn tocCollapsibleButton_JR4K">本页总览</button></div><div class="theme-doc-markdown markdown"><header><h1>Flex 布局</h1></header>
+<p>Flexbox 布局？</p>
+<p>CSS Flexbox（Flexible Box Layout）是一种用于在容器中分配空间并对齐内容的布局模式。
+Flexbox 提供了一组强大的属性，可以控制容器（父元素）和项目（子元素）的布局行为。</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="容器属性grid-container-properties">容器属性（Grid Container Properties）<a href="#容器属性grid-container-properties" class="hash-link" aria-label="容器属性（Grid Container Properties）的直接链接" title="容器属性（Grid Container Properties）的直接链接">​</a></h2>
+<ul>
+<li>容器属性：定义布局方向、换行、对齐方式等。</li>
+</ul>
+<p><code>display</code> 用途：定义一个 flex 容器。</p>
+<ul>
+<li>flex：块级 flex 容器。</li>
+<li>inline-flex：行内级 flex 容器。</li>
+</ul>
+<p><code>flex-direction</code> 用途：定义主轴方向，即 flex 项目排列的方向。</p>
+<ul>
+<li>row（默认值）：水平方向，从左到右。</li>
+<li>row-reverse：水平方向，从右到左。</li>
+<li>column：垂直方向，从上到下。</li>
+<li>column-reverse：垂直方向，从下到上。</li>
+</ul>
+<p><code>flex-wrap</code> 用途：定义 flex 项目是否换行。</p>
+<ul>
+<li>nowrap（默认值）：不换行，所有项目在一行或一列中。</li>
+<li>wrap：换行，项目将从上到下或从左到右换行。</li>
+<li>wrap-reverse：换行，项目将从下到上或从右到左换行。</li>
+</ul>
+<p><code>flex-flow</code> 用途：是 flex-direction 和 flex-wrap 的简写属性。</p>
+<ul>
+<li><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code></li>
+</ul>
+<p><code>justify-content</code> 用途：定义项目在主轴上的对齐方式。</p>
+<ul>
+<li>flex-start（默认值）：项目对齐到主轴起点。</li>
+<li>flex-end：项目对齐到主轴终点。</li>
+<li>center：项目在主轴上居中对齐。</li>
+<li>space-between：项目之间均匀分布，首尾项目对齐到两端。</li>
+<li>space-around：项目之间均匀分布，首尾项目周围有空间。</li>
+<li>space-evenly：项目之间以及与两端之间有均匀的空间。</li>
+</ul>
+<p><code>align-items</code> 用途：定义项目在交叉轴上的对齐方式。</p>
+<ul>
+<li>stretch（默认值）：项目拉伸以填满容器。</li>
+<li>flex-start：项目对齐到交叉轴起点。</li>
+<li>flex-end：项目对齐到交叉轴终点。</li>
+<li>center：项目在交叉轴上居中对齐。</li>
+<li>baseline：项目根据它们的基线对齐。</li>
+</ul>
+<p><code>align-content</code> 用途：定义多行项目在交叉轴上的对齐方式（仅在多行时有效）。</p>
+<ul>
+<li>stretch（默认值）：多行项目拉伸以填满容器。</li>
+<li>flex-start：多行项目对齐到交叉轴起点。</li>
+<li>flex-end：多行项目对齐到交叉轴终点。</li>
+<li>center：多行项目在交叉轴上居中对齐。</li>
+<li>space-between：多行项目之间均匀分布，首尾项目对齐到两端。</li>
+<li>space-around：多行项目之间均匀分布，首尾项目周围有空间。</li>
+<li>space-evenly：多行项目之间以及与两端之间有均匀的空间。</li>
+</ul>
+<p><code>gap, row-gap, column-gap</code> 用途：定义 flex 项目之间的间距。</p>
+<ul>
+<li>长度单位（如 px, em, %）</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="项目属性flex-item-properties">项目属性（Flex Item Properties）<a href="#项目属性flex-item-properties" class="hash-link" aria-label="项目属性（Flex Item Properties）的直接链接" title="项目属性（Flex Item Properties）的直接链接">​</a></h2>
+<ul>
+<li>项目属性：控制项目的顺序、大小、对齐方式等。</li>
+</ul>
+<p><code>flex-grow</code></p>
+<p>用途：定义 flex 项目的放大比例。</p>
+<ul>
+<li>数字（默认为 0）</li>
+</ul>
+<p><code>flex-shrink</code>
+用途：定义 flex 项目的缩小比例。</p>
+<ul>
+<li>数字（默认为 1）</li>
+</ul>
+<p><code>flex-basis</code>
+用途：定义在分配多余空间之前，项目在主轴方向上的初始大小。</p>
+<ul>
+<li>长度值（如 px, %, em）或 auto（默认为 auto）</li>
+</ul>
+<p><code>flex</code>
+用途：是 flex-grow, flex-shrink 和 flex-basis 的简写属性。</p>
+<ul>
+<li>flex-grow flex-shrink flex-basis</li>
+</ul>
+<p><code>align-self</code>
+用途：定义单个 flex 项目在交叉轴上的对齐方式，覆盖容器的 align-items 属性。</p>
+<ul>
+<li>auto（默认值）：继承容器的 align-items。</li>
+<li>stretch：拉伸以填满容器。</li>
+<li>flex-start：对齐到交叉轴起点。</li>
+<li>flex-end：对齐到交叉轴终点。</li>
+<li>center：居中对齐。</li>
+<li>baseline：根据基线对齐。</li>
+</ul>
+<p><code>order</code> 用途：定义 flex 项目的排列顺序。</p>
+<ul>
+<li>整数（默认为 0）</li>
+</ul>
+<h1>参考链接</h1>
+<p><a href="https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html" target="_blank" rel="noopener noreferrer">阮一峰：Flex 布局教程</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex" target="_blank" rel="noopener noreferrer">MDN 官网</a></p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/docs/前端/Css/API 手册/Flex布局/index.mdx" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_skTv" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>编辑此页</a></div><div class="col lastUpdated__mdx"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/前端/Css/API 手册/CSS 过渡/"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">CSS 过渡</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/前端/Css/API 手册/Grid布局/"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">Grid 布局</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_AIX6 thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#容器属性grid-container-properties" class="table-of-contents__link toc-highlight">容器属性（Grid Container Properties）</a></li><li><a href="#项目属性flex-item-properties" class="table-of-contents__link toc-highlight">项目属性（Flex Item Properties）</a></li></ul></div></div></div></div></main></div></div></div></div>
+</body>
+</html>
