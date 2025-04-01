@@ -2,11 +2,109 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://devjs.osliu.cn/blog</id>
     <title>_ | Blog</title>
-    <updated>2025-01-01T10:00:00.000Z</updated>
+    <updated>2025-04-01T12:07:05.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://devjs.osliu.cn/blog"/>
     <subtitle>_ | Blog</subtitle>
     <icon>https://devjs.osliu.cn/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[协商缓存和强制缓存？]]></title>
+        <id>https://devjs.osliu.cn/blog/协商缓存和强制缓存？✅</id>
+        <link href="https://devjs.osliu.cn/blog/协商缓存和强制缓存？✅"/>
+        <updated>2025-04-01T12:07:05.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浏览器渲染过程？]]></title>
+        <id>https://devjs.osliu.cn/blog/浏览器渲染过程？✅</id>
+        <link href="https://devjs.osliu.cn/blog/浏览器渲染过程？✅"/>
+        <updated>2025-03-26T09:38:12.000Z</updated>
+        <summary type="html"><![CDATA[1. 接收和解析 HTML（Parsing HTML）]]></summary>
+        <content type="html"><![CDATA[<ol>
+<li>接收和解析 HTML（Parsing HTML）</li>
+</ol>
+<ul>
+<li>字节流解码</li>
+<li>词法分析</li>
+<li>构建 DOM 树</li>
+</ul>
+<ol start="2">
+<li>解析 CSS（Parsing CSS）</li>
+</ol>
+<blockquote>
+<p>CSS 阻塞 JS 执行</p>
+</blockquote>
+<ul>
+<li>浏览器解析 CSS 文件，生成 CSSOM（CSS 对象模型）</li>
+<li>样式计算</li>
+</ul>
+<blockquote>
+<p>等待上一步完成</p>
+</blockquote>
+<ol start="3">
+<li>构建渲染树（Render Tree Construction）</li>
+</ol>
+<blockquote>
+<p>CSS 阻塞，等待上一步完成</p>
+</blockquote>
+<ul>
+<li>结合 DOM 和 CSSOM：将 DOM 树和 CSSOM 树结合，生成渲染树（Render Tree）。</li>
+<li>回流布局（Layout）：确定渲染树中每个元素的位置和大小，这个过程也被称为回流（reflow）。</li>
+</ul>
+<ol start="4">
+<li>绘制（Painting）</li>
+</ol>
+<ul>
+<li>绘制图层：根据渲染树和布局信息</li>
+<li>合成（Compositing）：将多个图层合成为一个最终的图像，显示在屏幕上。</li>
+</ul>
+<ol start="5">
+<li>处理 JavaScript</li>
+</ol>
+<blockquote>
+<p>JavaScript 阻塞 DOM 解析
+使用 async 和 defer 属性，</p>
+</blockquote>
+<ul>
+<li>执行 JavaScript：当浏览器遇到<code>&lt;script&gt;</code>标签时，会暂停 HTML 解析，执行 JavaScript 代码。</li>
+<li>JavaScript 可以修改 DOM 和 CSSOM，从而触发重新解析、布局和绘制。</li>
+</ul>
+<ol start="6">
+<li>重绘和回流</li>
+</ol>
+<ul>
+<li>浏览器会计算布局，重新绘制受影响的部分。</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[重绘回流防抖？]]></title>
+        <id>https://devjs.osliu.cn/blog/重绘回流防抖？✅</id>
+        <link href="https://devjs.osliu.cn/blog/重绘回流防抖？✅"/>
+        <updated>2025-03-26T09:38:12.000Z</updated>
+        <summary type="html"><![CDATA[什么是重绘（Repaint）？]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_jQaM" id="什么是重绘repaint">什么是重绘（Repaint）？<a href="https://devjs.osliu.cn/blog/%E9%87%8D%E7%BB%98%E5%9B%9E%E6%B5%81%E9%98%B2%E6%8A%96%EF%BC%9F%E2%9C%85#%E4%BB%80%E4%B9%88%E6%98%AF%E9%87%8D%E7%BB%98repaint" class="hash-link" aria-label="什么是重绘（Repaint）？的直接链接" title="什么是重绘（Repaint）？的直接链接">​</a></h2>
+<p>只改变元素的外观，不影响布局。</p>
+<ul>
+<li>改变元素的颜色、背景色、透明度等外观属性。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="什么是回流reflow">什么是回流（Reflow）？<a href="https://devjs.osliu.cn/blog/%E9%87%8D%E7%BB%98%E5%9B%9E%E6%B5%81%E9%98%B2%E6%8A%96%EF%BC%9F%E2%9C%85#%E4%BB%80%E4%B9%88%E6%98%AF%E5%9B%9E%E6%B5%81reflow" class="hash-link" aria-label="什么是回流（Reflow）？的直接链接" title="什么是回流（Reflow）？的直接链接">​</a></h2>
+<p>改变元素的几何属性或布局，影响页面的整体布局。</p>
+<ul>
+<li>改变元素的几何属性</li>
+<li>改变元素的布局属性（如 display, position, float, flex 等）。</li>
+<li>添加或删除 DOM 元素。</li>
+<li>改变浏览器窗口的大小。</li>
+<li>改变字体大小。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="如何减少重绘和回流的次数">如何减少重绘和回流的次数？<a href="https://devjs.osliu.cn/blog/%E9%87%8D%E7%BB%98%E5%9B%9E%E6%B5%81%E9%98%B2%E6%8A%96%EF%BC%9F%E2%9C%85#%E5%A6%82%E4%BD%95%E5%87%8F%E5%B0%91%E9%87%8D%E7%BB%98%E5%92%8C%E5%9B%9E%E6%B5%81%E7%9A%84%E6%AC%A1%E6%95%B0" class="hash-link" aria-label="如何减少重绘和回流的次数？的直接链接" title="如何减少重绘和回流的次数？的直接链接">​</a></h2>
+<ul>
+<li>批量修改样式</li>
+<li>使用文档片段</li>
+<li>使用 transform 和 opacity 属性</li>
+<li>虚拟 DOM</li>
+<li>requestAnimationFrame</li>
+<li>使用 CSS3 硬件加速：使用 transform, opacity, filters</li>
+</ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Postfix]]></title>
         <id>https://devjs.osliu.cn/blog/Postfix</id>
@@ -220,21 +318,21 @@
 <p><a href="https://www.odaily.news/post/5192190" target="_blank" rel="noopener noreferrer">PKU BLOCKCHAIN：写给前端开发者的 Web3 入门指南</a></p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[docker]]></title>
-        <id>https://devjs.osliu.cn/blog/docker</id>
-        <link href="https://devjs.osliu.cn/blog/docker"/>
-        <updated>2021-03-13T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[一个让项目跑在容器里软件。这样能做优点之一，项目不受不同系统环境影响。]]></summary>
-        <content type="html"><![CDATA[<p>一个让项目跑在容器里软件。这样能做优点之一，项目不受不同系统环境影响。</p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[jenkins]]></title>
         <id>https://devjs.osliu.cn/blog/jenkins</id>
         <link href="https://devjs.osliu.cn/blog/jenkins"/>
         <updated>2021-03-13T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[软件项目里，运维工程师常用的一款 CI/CD 软件，与 gitlab，github CI/CD 功能差不多。]]></summary>
         <content type="html"><![CDATA[<p>软件项目里，运维工程师常用的一款 CI/CD 软件，与 <code>gitlab</code>，<code>github</code> CI/CD 功能差不多。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[docker]]></title>
+        <id>https://devjs.osliu.cn/blog/docker</id>
+        <link href="https://devjs.osliu.cn/blog/docker"/>
+        <updated>2021-03-13T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[一个让项目跑在容器里软件。这样能做优点之一，项目不受不同系统环境影响。]]></summary>
+        <content type="html"><![CDATA[<p>一个让项目跑在容器里软件。这样能做优点之一，项目不受不同系统环境影响。</p>
 ]]></content>
     </entry>
     <entry>
