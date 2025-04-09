@@ -2,108 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://devjs.osliu.cn/blog</id>
     <title>_ | Blog</title>
-    <updated>2025-04-01T12:07:05.000Z</updated>
+    <updated>2025-04-06T23:41:35.613Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://devjs.osliu.cn/blog"/>
     <subtitle>_ | Blog</subtitle>
     <icon>https://devjs.osliu.cn/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[协商缓存和强制缓存？]]></title>
-        <id>https://devjs.osliu.cn/blog/协商缓存和强制缓存？✅</id>
-        <link href="https://devjs.osliu.cn/blog/协商缓存和强制缓存？✅"/>
-        <updated>2025-04-01T12:07:05.000Z</updated>
+        <title type="html"><![CDATA[文件后缀]]></title>
+        <id>https://devjs.osliu.cn/blog/常见的文件后缀</id>
+        <link href="https://devjs.osliu.cn/blog/常见的文件后缀"/>
+        <updated>2025-04-06T23:41:35.613Z</updated>
+        <summary type="html"><![CDATA[ini]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_jQaM" id="ini">ini<a href="https://devjs.osliu.cn/blog/%E5%B8%B8%E8%A7%81%E7%9A%84%E6%96%87%E4%BB%B6%E5%90%8E%E7%BC%80#ini" class="hash-link" aria-label="ini的直接链接" title="ini的直接链接">​</a></h2>
+<p>INI（Initialization）格式是一种简单的文本文件格式，通常用于存储配置信息。</p>
+<div class="language-ini codeBlockContainer_exce theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_PZLX"><pre tabindex="0" class="prism-code language-ini codeBlock_hFc6 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_Y79P"><span class="token-line" style="color:#393A34"><span class="token plain"># 键值对（Key-Value Pairs）：</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">port=3306</span><br></span></code></pre><div class="buttonGroup_rYgN"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_gcRC" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_qfCN"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_NDHU"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[浏览器渲染过程？]]></title>
-        <id>https://devjs.osliu.cn/blog/浏览器渲染过程？✅</id>
-        <link href="https://devjs.osliu.cn/blog/浏览器渲染过程？✅"/>
-        <updated>2025-03-26T09:38:12.000Z</updated>
-        <summary type="html"><![CDATA[1. 接收和解析 HTML（Parsing HTML）]]></summary>
-        <content type="html"><![CDATA[<ol>
-<li>接收和解析 HTML（Parsing HTML）</li>
-</ol>
-<ul>
-<li>字节流解码</li>
-<li>词法分析</li>
-<li>构建 DOM 树</li>
-</ul>
-<ol start="2">
-<li>解析 CSS（Parsing CSS）</li>
-</ol>
-<blockquote>
-<p>CSS 阻塞 JS 执行</p>
-</blockquote>
-<ul>
-<li>浏览器解析 CSS 文件，生成 CSSOM（CSS 对象模型）</li>
-<li>样式计算</li>
-</ul>
-<blockquote>
-<p>等待上一步完成</p>
-</blockquote>
-<ol start="3">
-<li>构建渲染树（Render Tree Construction）</li>
-</ol>
-<blockquote>
-<p>CSS 阻塞，等待上一步完成</p>
-</blockquote>
-<ul>
-<li>结合 DOM 和 CSSOM：将 DOM 树和 CSSOM 树结合，生成渲染树（Render Tree）。</li>
-<li>回流布局（Layout）：确定渲染树中每个元素的位置和大小，这个过程也被称为回流（reflow）。</li>
-</ul>
-<ol start="4">
-<li>绘制（Painting）</li>
-</ol>
-<ul>
-<li>绘制图层：根据渲染树和布局信息</li>
-<li>合成（Compositing）：将多个图层合成为一个最终的图像，显示在屏幕上。</li>
-</ul>
-<ol start="5">
-<li>处理 JavaScript</li>
-</ol>
-<blockquote>
-<p>JavaScript 阻塞 DOM 解析
-使用 async 和 defer 属性，</p>
-</blockquote>
-<ul>
-<li>执行 JavaScript：当浏览器遇到<code>&lt;script&gt;</code>标签时，会暂停 HTML 解析，执行 JavaScript 代码。</li>
-<li>JavaScript 可以修改 DOM 和 CSSOM，从而触发重新解析、布局和绘制。</li>
-</ul>
-<ol start="6">
-<li>重绘和回流</li>
-</ol>
-<ul>
-<li>浏览器会计算布局，重新绘制受影响的部分。</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[重绘回流防抖？]]></title>
-        <id>https://devjs.osliu.cn/blog/重绘回流防抖？✅</id>
-        <link href="https://devjs.osliu.cn/blog/重绘回流防抖？✅"/>
-        <updated>2025-03-26T09:38:12.000Z</updated>
-        <summary type="html"><![CDATA[什么是重绘（Repaint）？]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_jQaM" id="什么是重绘repaint">什么是重绘（Repaint）？<a href="https://devjs.osliu.cn/blog/%E9%87%8D%E7%BB%98%E5%9B%9E%E6%B5%81%E9%98%B2%E6%8A%96%EF%BC%9F%E2%9C%85#%E4%BB%80%E4%B9%88%E6%98%AF%E9%87%8D%E7%BB%98repaint" class="hash-link" aria-label="什么是重绘（Repaint）？的直接链接" title="什么是重绘（Repaint）？的直接链接">​</a></h2>
-<p>只改变元素的外观，不影响布局。</p>
-<ul>
-<li>改变元素的颜色、背景色、透明度等外观属性。</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="什么是回流reflow">什么是回流（Reflow）？<a href="https://devjs.osliu.cn/blog/%E9%87%8D%E7%BB%98%E5%9B%9E%E6%B5%81%E9%98%B2%E6%8A%96%EF%BC%9F%E2%9C%85#%E4%BB%80%E4%B9%88%E6%98%AF%E5%9B%9E%E6%B5%81reflow" class="hash-link" aria-label="什么是回流（Reflow）？的直接链接" title="什么是回流（Reflow）？的直接链接">​</a></h2>
-<p>改变元素的几何属性或布局，影响页面的整体布局。</p>
-<ul>
-<li>改变元素的几何属性</li>
-<li>改变元素的布局属性（如 display, position, float, flex 等）。</li>
-<li>添加或删除 DOM 元素。</li>
-<li>改变浏览器窗口的大小。</li>
-<li>改变字体大小。</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="如何减少重绘和回流的次数">如何减少重绘和回流的次数？<a href="https://devjs.osliu.cn/blog/%E9%87%8D%E7%BB%98%E5%9B%9E%E6%B5%81%E9%98%B2%E6%8A%96%EF%BC%9F%E2%9C%85#%E5%A6%82%E4%BD%95%E5%87%8F%E5%B0%91%E9%87%8D%E7%BB%98%E5%92%8C%E5%9B%9E%E6%B5%81%E7%9A%84%E6%AC%A1%E6%95%B0" class="hash-link" aria-label="如何减少重绘和回流的次数？的直接链接" title="如何减少重绘和回流的次数？的直接链接">​</a></h2>
-<ul>
-<li>批量修改样式</li>
-<li>使用文档片段</li>
-<li>使用 transform 和 opacity 属性</li>
-<li>虚拟 DOM</li>
-<li>requestAnimationFrame</li>
-<li>使用 CSS3 硬件加速：使用 transform, opacity, filters</li>
-</ul>]]></content>
+        <title type="html"><![CDATA[BSD 套接字]]></title>
+        <id>https://devjs.osliu.cn/blog/BSD 套接字</id>
+        <link href="https://devjs.osliu.cn/blog/BSD 套接字"/>
+        <updated>2025-04-06T00:40:56.130Z</updated>
+        <summary type="html"><![CDATA[互联网伯克利套接字，又称为 BSD 套接字]]></summary>
+        <content type="html"><![CDATA[<p>互联网伯克利套接字，又称为 BSD 套接字</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="设计目的">设计目的<a href="https://devjs.osliu.cn/blog/BSD%20%E5%A5%97%E6%8E%A5%E5%AD%97#%E8%AE%BE%E8%AE%A1%E7%9B%AE%E7%9A%84" class="hash-link" aria-label="设计目的的直接链接" title="设计目的的直接链接">​</a></h2>
+<p>主要用于实现进程间通讯</p>
+<h1>参考链接</h1>
+<p><a href="https://zh.wikipedia.org/wiki/Berkeley%E5%A5%97%E6%8E%A5%E5%AD%97" target="_blank" rel="noopener noreferrer">BSD 套接字：https://zh.wikipedia.org/wiki/Berkeley%E5%A5%97%E6%8E%A5%E5%AD%97</a></p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Postfix]]></title>
@@ -274,31 +198,6 @@
 <p><a href="https://youtu.be/vtR7cgYATdk?si=ooKekaw6Hzkm_ms2" target="_blank" rel="noopener noreferrer">【硬核科普】从零开始认识显卡 https://youtu.be/</a></p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[设计师软件]]></title>
-        <id>https://devjs.osliu.cn/blog/设计师软件</id>
-        <link href="https://devjs.osliu.cn/blog/设计师软件"/>
-        <updated>2021-09-13T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[{/ truncate /}]]></summary>
-        <content type="html"><![CDATA[
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="figma">Figma<a href="https://devjs.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#figma" class="hash-link" aria-label="Figma的直接链接" title="Figma的直接链接">​</a></h2>
-<p>适合 web 等平面设计在线平台。</p>
-<div class="theme-admonition theme-admonition-note admonition_xsfO alert alert--secondary"><div class="admonitionHeading_ThUT"><span class="admonitionIcon_q0Sn"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>备注</div><div class="admonitionContent_T4n_"><p>此软件，figma 对国内多家公司进行了制裁，包括大疆、华为、小米、360、海康威视等多家高科技企业，可想软件有多厉害。</p><p>Ryan Florence 是一位知名的前端开发工程师，在 Figma 担任过工程师。</p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="blender">Blender<a href="https://devjs.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#blender" class="hash-link" aria-label="Blender的直接链接" title="Blender的直接链接">​</a></h2>
-<p>建模设计工具。</p>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="ps">PS<a href="https://devjs.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#ps" class="hash-link" aria-label="PS的直接链接" title="PS的直接链接">​</a></h2>
-<p>修图</p>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="cad">CAD<a href="https://devjs.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#cad" class="hash-link" aria-label="CAD的直接链接" title="CAD的直接链接">​</a></h2>
-<p>画图</p>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="3dmax">3DMAX<a href="https://devjs.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#3dmax" class="hash-link" aria-label="3DMAX的直接链接" title="3DMAX的直接链接">​</a></h2>
-<p>工业建模</p>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="maya">Maya<a href="https://devjs.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#maya" class="hash-link" aria-label="Maya的直接链接" title="Maya的直接链接">​</a></h2>
-<p>工业建模</p>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="unity">Unity<a href="https://devjs.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#unity" class="hash-link" aria-label="Unity的直接链接" title="Unity的直接链接">​</a></h2>
-<p>游戏开发建模</p>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="unrealengine">Unrealengine<a href="https://devjs.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#unrealengine" class="hash-link" aria-label="Unrealengine的直接链接" title="Unrealengine的直接链接">​</a></h2>
-<p>游戏开发建模</p>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Web3]]></title>
         <id>https://devjs.osliu.cn/blog/Web3.0</id>
         <link href="https://devjs.osliu.cn/blog/Web3.0"/>
@@ -318,21 +217,21 @@
 <p><a href="https://www.odaily.news/post/5192190" target="_blank" rel="noopener noreferrer">PKU BLOCKCHAIN：写给前端开发者的 Web3 入门指南</a></p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[jenkins]]></title>
-        <id>https://devjs.osliu.cn/blog/jenkins</id>
-        <link href="https://devjs.osliu.cn/blog/jenkins"/>
-        <updated>2021-03-13T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[软件项目里，运维工程师常用的一款 CI/CD 软件，与 gitlab，github CI/CD 功能差不多。]]></summary>
-        <content type="html"><![CDATA[<p>软件项目里，运维工程师常用的一款 CI/CD 软件，与 <code>gitlab</code>，<code>github</code> CI/CD 功能差不多。</p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[docker]]></title>
         <id>https://devjs.osliu.cn/blog/docker</id>
         <link href="https://devjs.osliu.cn/blog/docker"/>
         <updated>2021-03-13T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[一个让项目跑在容器里软件。这样能做优点之一，项目不受不同系统环境影响。]]></summary>
         <content type="html"><![CDATA[<p>一个让项目跑在容器里软件。这样能做优点之一，项目不受不同系统环境影响。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[jenkins]]></title>
+        <id>https://devjs.osliu.cn/blog/jenkins</id>
+        <link href="https://devjs.osliu.cn/blog/jenkins"/>
+        <updated>2021-03-13T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[软件项目里，运维工程师常用的一款 CI/CD 软件，与 gitlab，github CI/CD 功能差不多。]]></summary>
+        <content type="html"><![CDATA[<p>软件项目里，运维工程师常用的一款 CI/CD 软件，与 <code>gitlab</code>，<code>github</code> CI/CD 功能差不多。</p>
 ]]></content>
     </entry>
     <entry>
@@ -415,6 +314,92 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[文档工具]]></title>
+        <id>https://devjs.osliu.cn/blog/使用VPN违规么？</id>
+        <link href="https://devjs.osliu.cn/blog/使用VPN违规么？"/>
+        <updated>2018-09-13T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[使用 VPN 或类似的翻墙工具在我国是一个法律灰区，某些情况下可能会涉及法律风险。]]></summary>
+        <content type="html"><![CDATA[<p>使用 VPN 或类似的翻墙工具在我国是一个法律灰区，某些情况下可能会涉及法律风险。</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="那么当企业必须需要时">那么当企业必须需要时<a href="https://devjs.osliu.cn/blog/%E4%BD%BF%E7%94%A8VPN%E8%BF%9D%E8%A7%84%E4%B9%88%EF%BC%9F#%E9%82%A3%E4%B9%88%E5%BD%93%E4%BC%81%E4%B8%9A%E5%BF%85%E9%A1%BB%E9%9C%80%E8%A6%81%E6%97%B6" class="hash-link" aria-label="那么当企业必须需要时的直接链接" title="那么当企业必须需要时的直接链接">​</a></h2>
+<p>企业如果需要使用 VPN 来进行跨境业务、远程办公等，可以通过合法途径申请和使用。根据我国的法律法规，企业使用 VPN 必须满足相关要求，并通过政府批准的正规渠道来获得许可。以下是企业申请 VPN 的一些基本步骤：</p>
+<ol>
+<li>
+<p><strong>了解相关法律法规</strong>：</p>
+<ul>
+<li>根据我国的《网络安全法》及其他相关法律，企业使用 VPN 必须符合法律规定。未经许可的 VPN 连接可能会导致法律风险。</li>
+<li>企业使用 VPN 主要用于合规的商业用途，例如跨境数据传输、远程办公等。</li>
+</ul>
+</li>
+<li>
+<p><strong>选择合规的 VPN 服务提供商</strong>：</p>
+<ul>
+<li>企业可以选择与我国政府批准的 VPN 服务提供商合作，这些服务商需要获得相关部门的授权和备案。一般来说，国内运营商如我国电信、我国联通、我国移动等也提供合法的企业级 VPN 服务。</li>
+<li>这些合规的 VPN 服务商会提供符合我国法规的专线 VPN 或云 VPN 服务。</li>
+</ul>
+</li>
+<li>
+<p><strong>向相关政府部门备案</strong>：</p>
+<ul>
+<li>企业若需要使用跨境 VPN，需要向相关部门进行备案。具体可以联系当地的工信部门（如省级通信管理局）或者国家互联网信息办公室（CAC）进行咨询和备案。</li>
+<li>企业需要提供业务用途、数据传输类型、网络安全保障措施等详细信息。</li>
+</ul>
+</li>
+<li>
+<p><strong>审查与审批</strong>：</p>
+<ul>
+<li>在一些情况下，企业可能需要接受政府的审查或审批，确保其使用 VPN 服务的方式不违反国家的安全和监管政策。</li>
+</ul>
+</li>
+<li>
+<p><strong>签订相关合同和协议</strong>：</p>
+<ul>
+<li>合法的 VPN 服务商和企业之间会签订正式的服务协议，明确双方的责任、服务内容以及法律合规要求。</li>
+</ul>
+</li>
+<li>
+<p><strong>加强网络安全管理</strong>：</p>
+<ul>
+<li>企业还需要加强网络安全管理，确保通过 VPN 进行的跨境通信和数据传输符合我国的网络安全要求。包括对敏感数据的加密、访问权限控制等措施。</li>
+</ul>
+</li>
+</ol>
+<p>如果企业没有合法的 VPN 许可而仍使用未经批准的 VPN 服务，可能会面临罚款、警告或更严重的法律后果。为了确保合规，建议企业在申请 VPN 服务时，咨询法律专业人士并与合规的服务商合作。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[文档工具]]></title>
+        <id>https://devjs.osliu.cn/blog/前端开荒篇</id>
+        <link href="https://devjs.osliu.cn/blog/前端开荒篇"/>
+        <updated>2018-09-13T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[众所周知，前端是面向用户端，那么面向用户端，能有什么？工具设备，视觉图片，交互动画，显示界面。]]></summary>
+        <content type="html"><![CDATA[<p>众所周知，前端是面向用户端，那么面向用户端，能有什么？工具设备，视觉图片，交互动画，显示界面。</p>
+<ol>
+<li>
+<p>游戏领域 🔥</p>
+</li>
+<li>
+<p>建模领域 🔥</p>
+</li>
+<li>
+<p>页面领域</p>
+</li>
+<li>
+<p>软件领域</p>
+</li>
+<li>
+<p>工具领域</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="技术">技术<a href="https://devjs.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E8%8D%92%E7%AF%87#%E6%8A%80%E6%9C%AF" class="hash-link" aria-label="技术的直接链接" title="技术的直接链接">​</a></h2>
+<p>不同的领域使用的技术也大多不同。</p>
+<h1>参考链接</h1>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[文档工具]]></title>
+        <id>https://devjs.osliu.cn/blog/协商缓存和强制缓存？✅</id>
+        <link href="https://devjs.osliu.cn/blog/协商缓存和强制缓存？✅"/>
+        <updated>2018-09-13T10:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[文档工具]]></title>
         <id>https://devjs.osliu.cn/blog/文档工具</id>
         <link href="https://devjs.osliu.cn/blog/文档工具"/>
         <updated>2018-09-13T10:00:00.000Z</updated>
@@ -457,6 +442,98 @@
 <p><a href="https://docs.pmnd.rs/" target="_blank" rel="noopener noreferrer">mdx 静态文档生成器</a></p>
 <h2 class="anchor anchorWithStickyNavbar_jQaM" id="rspress">rspress<a href="https://devjs.osliu.cn/blog/%E6%96%87%E6%A1%A3%E5%B7%A5%E5%85%B7#rspress" class="hash-link" aria-label="rspress的直接链接" title="rspress的直接链接">​</a></h2>
 <p>👍</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[文档工具]]></title>
+        <id>https://devjs.osliu.cn/blog/浏览器渲染过程？✅</id>
+        <link href="https://devjs.osliu.cn/blog/浏览器渲染过程？✅"/>
+        <updated>2018-09-13T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1. 接收和解析 HTML（Parsing HTML）]]></summary>
+        <content type="html"><![CDATA[<ol>
+<li>接收和解析 HTML（Parsing HTML）</li>
+</ol>
+<ul>
+<li>字节流解码</li>
+<li>词法分析</li>
+<li>构建 DOM 树</li>
+</ul>
+<ol start="2">
+<li>解析 CSS（Parsing CSS）</li>
+</ol>
+<blockquote>
+<p>CSS 阻塞 JS 执行</p>
+</blockquote>
+<ul>
+<li>浏览器解析 CSS 文件，生成 CSSOM（CSS 对象模型）</li>
+<li>样式计算</li>
+</ul>
+<blockquote>
+<p>等待上一步完成</p>
+</blockquote>
+<ol start="3">
+<li>构建渲染树（Render Tree Construction）</li>
+</ol>
+<blockquote>
+<p>CSS 阻塞，等待上一步完成</p>
+</blockquote>
+<ul>
+<li>结合 DOM 和 CSSOM：将 DOM 树和 CSSOM 树结合，生成渲染树（Render Tree）。</li>
+<li>回流布局（Layout）：确定渲染树中每个元素的位置和大小，这个过程也被称为回流（reflow）。</li>
+</ul>
+<ol start="4">
+<li>绘制（Painting）</li>
+</ol>
+<ul>
+<li>绘制图层：根据渲染树和布局信息</li>
+<li>合成（Compositing）：将多个图层合成为一个最终的图像，显示在屏幕上。</li>
+</ul>
+<ol start="5">
+<li>处理 JavaScript</li>
+</ol>
+<blockquote>
+<p>JavaScript 阻塞 DOM 解析
+使用 async 和 defer 属性，</p>
+</blockquote>
+<ul>
+<li>执行 JavaScript：当浏览器遇到<code>&lt;script&gt;</code>标签时，会暂停 HTML 解析，执行 JavaScript 代码。</li>
+<li>JavaScript 可以修改 DOM 和 CSSOM，从而触发重新解析、布局和绘制。</li>
+</ul>
+<ol start="6">
+<li>重绘和回流</li>
+</ol>
+<ul>
+<li>浏览器会计算布局，重新绘制受影响的部分。</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[文档工具]]></title>
+        <id>https://devjs.osliu.cn/blog/重绘回流防抖？✅</id>
+        <link href="https://devjs.osliu.cn/blog/重绘回流防抖？✅"/>
+        <updated>2018-09-13T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[什么是重绘（Repaint）？]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_jQaM" id="什么是重绘repaint">什么是重绘（Repaint）？<a href="https://devjs.osliu.cn/blog/%E9%87%8D%E7%BB%98%E5%9B%9E%E6%B5%81%E9%98%B2%E6%8A%96%EF%BC%9F%E2%9C%85#%E4%BB%80%E4%B9%88%E6%98%AF%E9%87%8D%E7%BB%98repaint" class="hash-link" aria-label="什么是重绘（Repaint）？的直接链接" title="什么是重绘（Repaint）？的直接链接">​</a></h2>
+<p>只改变元素的外观，不影响布局。</p>
+<ul>
+<li>改变元素的颜色、背景色、透明度等外观属性。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="什么是回流reflow">什么是回流（Reflow）？<a href="https://devjs.osliu.cn/blog/%E9%87%8D%E7%BB%98%E5%9B%9E%E6%B5%81%E9%98%B2%E6%8A%96%EF%BC%9F%E2%9C%85#%E4%BB%80%E4%B9%88%E6%98%AF%E5%9B%9E%E6%B5%81reflow" class="hash-link" aria-label="什么是回流（Reflow）？的直接链接" title="什么是回流（Reflow）？的直接链接">​</a></h2>
+<p>改变元素的几何属性或布局，影响页面的整体布局。</p>
+<ul>
+<li>改变元素的几何属性</li>
+<li>改变元素的布局属性（如 display, position, float, flex 等）。</li>
+<li>添加或删除 DOM 元素。</li>
+<li>改变浏览器窗口的大小。</li>
+<li>改变字体大小。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="如何减少重绘和回流的次数">如何减少重绘和回流的次数？<a href="https://devjs.osliu.cn/blog/%E9%87%8D%E7%BB%98%E5%9B%9E%E6%B5%81%E9%98%B2%E6%8A%96%EF%BC%9F%E2%9C%85#%E5%A6%82%E4%BD%95%E5%87%8F%E5%B0%91%E9%87%8D%E7%BB%98%E5%92%8C%E5%9B%9E%E6%B5%81%E7%9A%84%E6%AC%A1%E6%95%B0" class="hash-link" aria-label="如何减少重绘和回流的次数？的直接链接" title="如何减少重绘和回流的次数？的直接链接">​</a></h2>
+<ul>
+<li>批量修改样式</li>
+<li>使用文档片段</li>
+<li>使用 transform 和 opacity 属性</li>
+<li>虚拟 DOM</li>
+<li>requestAnimationFrame</li>
+<li>使用 CSS3 硬件加速：使用 transform, opacity, filters</li>
+</ul>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[网上冲浪]]></title>
