@@ -4,10 +4,102 @@
         <title>_ | Blog</title>
         <link>https://devjs.osliu.cn/blog</link>
         <description>_ | Blog</description>
-        <lastBuildDate>Thu, 10 Apr 2025 03:26:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Apr 2025 10:43:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[WebGL 库有哪些热门的？]]></title>
+            <link>https://devjs.osliu.cn/blog/WebGL库有哪些热门的？</link>
+            <guid>https://devjs.osliu.cn/blog/WebGL库有哪些热门的？</guid>
+            <pubDate>Thu, 10 Apr 2025 10:43:04 GMT</pubDate>
+            <description><![CDATA[WebGL（Web Graphics Library）是一个用于在网页上渲染交互式 2D 和 3D 图形的 JavaScript API。以下是一些流行的 WebGL 库，它们可以帮助开发者更轻松地创建复杂的图形和动画：]]></description>
+            <content:encoded><![CDATA[<p>WebGL（Web Graphics Library）是一个用于在网页上渲染交互式 2D 和 3D 图形的 JavaScript API。以下是一些流行的 WebGL 库，它们可以帮助开发者更轻松地创建复杂的图形和动画：</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="ai-回答">Ai 回答：<a href="https://devjs.osliu.cn/blog/WebGL%E5%BA%93%E6%9C%89%E5%93%AA%E4%BA%9B%E7%83%AD%E9%97%A8%E7%9A%84%EF%BC%9F#ai-%E5%9B%9E%E7%AD%94" class="hash-link" aria-label="Ai 回答：的直接链接" title="Ai 回答：的直接链接">​</a></h2>
+<ol>
+<li>
+<p><strong>Three.js</strong>：</p>
+<ul>
+<li><strong>简介</strong>：Three.js 是一个功能强大且广泛使用的 JavaScript 库，用于创建和显示 3D 图形。</li>
+<li><strong>特点</strong>：支持多种 3D 模型格式、材质、灯光、阴影等，易于上手且有丰富的社区资源。</li>
+<li><strong>用途</strong>：常用于游戏、虚拟现实、数据可视化等领域。</li>
+</ul>
+</li>
+<li>
+<p><strong>Babylon.js</strong>：</p>
+<ul>
+<li><strong>简介</strong>：Babylon.js 是一个功能丰富的 3D 引擎，专注于高性能和易用性。</li>
+<li><strong>特点</strong>：内置物理引擎、支持 PBR（基于物理的渲染）、强大的工具集（如 Babylon.js Inspector）。</li>
+<li><strong>用途</strong>：适用于游戏开发、虚拟现实、增强现实等。</li>
+</ul>
+</li>
+<li>
+<p><strong>PlayCanvas</strong>：</p>
+<ul>
+<li><strong>简介</strong>：PlayCanvas 是一个基于 WebGL 的游戏引擎，提供在线编辑器和协作工具。</li>
+<li><strong>特点</strong>：实时协作、云端托管、强大的物理引擎和动画系统。</li>
+<li><strong>用途</strong>：主要用于游戏开发和互动内容的创建。</li>
+</ul>
+</li>
+<li>
+<p><strong>CesiumJS</strong>：</p>
+<ul>
+<li><strong>简介</strong>：CesiumJS 是一个开源的 JavaScript 库，用于创建 3D 地球和地图。</li>
+<li><strong>特点</strong>：支持全球地形、影像数据、3D 模型和时间动态。</li>
+<li><strong>用途</strong>：适用于地理信息系统（GIS）、地图可视化、虚拟地球等。</li>
+</ul>
+</li>
+<li>
+<p><strong>PixiJS</strong>：</p>
+<ul>
+<li><strong>简介</strong>：PixiJS 是一个快速的 2D 渲染引擎，支持 WebGL 和 Canvas。</li>
+<li><strong>特点</strong>：轻量级、高性能、易于使用，支持丰富的图形效果和动画。</li>
+<li><strong>用途</strong>：常用于 2D 游戏、互动广告、数据可视化等。</li>
+</ul>
+</li>
+<li>
+<p><strong>Phaser</strong>：</p>
+<ul>
+<li><strong>简介</strong>：Phaser 是一个基于 PixiJS 的 2D 游戏框架，专注于快速开发。</li>
+<li><strong>特点</strong>：内置物理引擎、丰富的 API、活跃的社区和大量的示例。</li>
+<li><strong>用途</strong>：主要用于 2D 游戏开发。</li>
+</ul>
+</li>
+<li>
+<p><strong>A-Frame</strong>：</p>
+<ul>
+<li><strong>简介</strong>：A-Frame 是一个基于 Three.js 的 Web 框架，用于构建虚拟现实（VR）体验。</li>
+<li><strong>特点</strong>：使用 HTML 标签进行开发、支持多种 VR 设备、丰富的组件库。</li>
+<li><strong>用途</strong>：适用于虚拟现实应用和 3D 内容的创建。</li>
+</ul>
+</li>
+<li>
+<p><strong>D3.js</strong>：</p>
+<ul>
+<li><strong>简介</strong>：D3.js 是一个强大的数据可视化库，虽然主要基于 SVG，但也支持 WebGL。</li>
+<li><strong>特点</strong>：灵活的数据驱动方法、丰富的可视化组件和动画效果。</li>
+<li><strong>用途</strong>：主要用于数据可视化和信息图表的创建。</li>
+</ul>
+</li>
+<li>
+<p><strong>Deck.gl</strong>：</p>
+<ul>
+<li><strong>简介</strong>：Deck.gl 是一个基于 WebGL 的可视化框架，专为大规模数据集设计。</li>
+<li><strong>特点</strong>：高性能、支持多种图层和交互功能、易于与地图服务集成。</li>
+<li><strong>用途</strong>：适用于地理空间数据可视化、大数据可视化等。</li>
+</ul>
+</li>
+<li>
+<p><strong>GLTFLoader</strong>：</p>
+<ul>
+<li><strong>简介</strong>：GLTFLoader 是 Three.js 的一个扩展，用于加载 GLTF/GLB 格式的 3D 模型。</li>
+<li><strong>特点</strong>：支持 PBR 材质、动画和骨骼动画。</li>
+<li><strong>用途</strong>：用于在 WebGL 应用中加载和显示 3D 模型。</li>
+</ul>
+</li>
+</ol>
+<p>这些库各有特点和优势，选择合适的库取决于具体的项目需求和个人偏好。如果你刚开始接触 WebGL，Three.js 是一个很好的起点，因为它有丰富的文档和社区支持。</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[postfix]]></title>
             <link>https://devjs.osliu.cn/blog/Postfix/index copy</link>
@@ -113,6 +205,8 @@
             <pubDate>Sun, 23 Mar 2025 23:45:35 GMT</pubDate>
             <description><![CDATA[YApi 可视化接口管理平台]]></description>
             <content:encoded><![CDATA[<p>YApi 可视化接口管理平台</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="yapi-搭建">Yapi 搭建<a href="https://devjs.osliu.cn/blog/yapi#yapi-%E6%90%AD%E5%BB%BA" class="hash-link" aria-label="Yapi 搭建的直接链接" title="Yapi 搭建的直接链接">​</a></h2>
+<div class="theme-admonition theme-admonition-note admonition_xsfO alert alert--secondary"><div class="admonitionHeading_ThUT"><span class="admonitionIcon_q0Sn"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>备注</div><div class="admonitionContent_T4n_"><p>假设你已经精通，nodejs，mongo</p></div></div>
 <h1>参考链接</h1>
 <p><a href="https://github.com/YMFE/yapi" target="_blank" rel="noopener noreferrer">官网 https://github.com/YMFE/yapi</a></p>]]></content:encoded>
         </item>
@@ -192,7 +286,7 @@
             <pubDate>Sun, 09 Mar 2025 05:38:45 GMT</pubDate>
             <description><![CDATA[数据序列化]]></description>
             <content:encoded><![CDATA[<p>数据序列化</p>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="基本例子-">基本例子 🌰<a href="https://devjs.osliu.cn/blog/yaml#%E5%9F%BA%E6%9C%AC%E4%BE%8B%E5%AD%90-" class="hash-link" aria-label="基本例子 🌰的直接链接" title="基本例子 🌰的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="基本语法例子-">基本语法例子 🌰<a href="https://devjs.osliu.cn/blog/yaml#%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%E4%BE%8B%E5%AD%90-" class="hash-link" aria-label="基本语法例子 🌰的直接链接" title="基本语法例子 🌰的直接链接">​</a></h2>
 <div class="language-yml codeBlockContainer_exce theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_PZLX"><pre tabindex="0" class="prism-code language-yml codeBlock_hFc6 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_Y79P"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">---</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">#  : 代表对象</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">languages</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token comment" style="color:#999988;font-style:italic"># - 代表数组</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> Ruby</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    Perl</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> Python</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">websites</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">date</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token datetime number" style="color:#36acaa">1976-07-31</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">str</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> 这是一行字符串</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">bool</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token boolean important" style="color:#36acaa">true</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token comment" style="color:#999988;font-style:italic"># 注释：~ 代表null</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">parent</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token null important">~</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token comment" style="color:#999988;font-style:italic"># 注释：!! 代表强制转换数据类型</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">f</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token tag" style="color:#00009f">!!str</span><span class="token plain"> </span><span class="token boolean important" style="color:#36acaa">true</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># &amp; 用来建立锚点（defaults）* 用来引用锚点 &lt;&lt; 表示合并到当前</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">defaults</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token important">&amp;defaults</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">adapter</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> postgres</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">host</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> localhost</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">development</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">database</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> myapp_development</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">&lt;&lt;</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token important">*defaults</span><br></span></code></pre><div class="buttonGroup_rYgN"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_gcRC" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_qfCN"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_NDHU"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h2 class="anchor anchorWithStickyNavbar_jQaM" id="参考链接">参考链接<a href="https://devjs.osliu.cn/blog/yaml#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5" class="hash-link" aria-label="参考链接的直接链接" title="参考链接的直接链接">​</a></h2>
 <p><a href="https://yaml.org/" target="_blank" rel="noopener noreferrer">官网 https://yaml.org/</a></p>
@@ -403,15 +497,6 @@
             <pubDate>Sat, 13 Mar 2021 10:00:00 GMT</pubDate>
             <description><![CDATA[一个让项目跑在容器里软件。这样能做优点之一，项目不受不同系统环境影响。]]></description>
             <content:encoded><![CDATA[<p>一个让项目跑在容器里软件。这样能做优点之一，项目不受不同系统环境影响。</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[jenkins]]></title>
-            <link>https://devjs.osliu.cn/blog/jenkins</link>
-            <guid>https://devjs.osliu.cn/blog/jenkins</guid>
-            <pubDate>Sat, 13 Mar 2021 10:00:00 GMT</pubDate>
-            <description><![CDATA[软件项目里，运维工程师常用的一款 CI/CD 软件，与 gitlab，github CI/CD 功能差不多。]]></description>
-            <content:encoded><![CDATA[<p>软件项目里，运维工程师常用的一款 CI/CD 软件，与 <code>gitlab</code>，<code>github</code> CI/CD 功能差不多。</p>
 ]]></content:encoded>
         </item>
     </channel>
