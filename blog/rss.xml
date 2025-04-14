@@ -4,10 +4,22 @@
         <title>_ | Blog</title>
         <link>https://dev-js.osliu.cn/blog</link>
         <description>_ | Blog</description>
-        <lastBuildDate>Thu, 10 Apr 2025 10:43:04 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Apr 2025 03:44:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[Electronjs 博客]]></title>
+            <link>https://dev-js.osliu.cn/blog/Electronjs博客</link>
+            <guid>https://dev-js.osliu.cn/blog/Electronjs博客</guid>
+            <pubDate>Mon, 14 Apr 2025 03:44:13 GMT</pubDate>
+            <description><![CDATA[{/ truncate /}]]></description>
+            <content:encoded><![CDATA[
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="迁移到-nodejs-22-作为最低支持版本">迁移到 Node.js 22 作为最低支持版本。<a href="https://dev-js.osliu.cn/blog/Electronjs%E5%8D%9A%E5%AE%A2#%E8%BF%81%E7%A7%BB%E5%88%B0-nodejs-22-%E4%BD%9C%E4%B8%BA%E6%9C%80%E4%BD%8E%E6%94%AF%E6%8C%81%E7%89%88%E6%9C%AC" class="hash-link" aria-label="迁移到 Node.js 22 作为最低支持版本。的直接链接" title="迁移到 Node.js 22 作为最低支持版本。的直接链接">​</a></h2>
+<p><a href="https://www.electronjs.org/blog/ecosystem-node-22" target="_blank" rel="noopener noreferrer">2025 年初，将我们的生态系统迁移至 Node 22</a></p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="electron-3500-升级">Electron 35.0.0 升级<a href="https://dev-js.osliu.cn/blog/Electronjs%E5%8D%9A%E5%AE%A2#electron-3500-%E5%8D%87%E7%BA%A7" class="hash-link" aria-label="Electron 35.0.0 升级的直接链接" title="Electron 35.0.0 升级的直接链接">​</a></h2>
+<p><a href="https://www.electronjs.org/blog/electron-35-0" target="_blank" rel="noopener noreferrer">https://www.electronjs.org/blog/electron-35-0</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[WebGL 库有哪些热门的？]]></title>
             <link>https://dev-js.osliu.cn/blog/WebGL库有哪些热门的？</link>
