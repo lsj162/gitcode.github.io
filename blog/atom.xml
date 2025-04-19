@@ -148,14 +148,14 @@
 <div class="language-shell codeBlockContainer_exce theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_PZLX"><pre tabindex="0" class="prism-code language-shell codeBlock_hFc6 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_Y79P"><span class="token-line" style="color:#393A34"><span class="token plain"># /etc/postfix/main.cf:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    virtual_alias_maps = hash:/etc/postfix/virtual</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># postfix reload</span><br></span></code></pre><div class="buttonGroup_rYgN"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_gcRC" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_qfCN"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_NDHU"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[使用VPN违规么？]]></title>
-        <id>https://dev-js.osliu.cn/blog/使用VPN违规么？</id>
-        <link href="https://dev-js.osliu.cn/blog/使用VPN违规么？"/>
+        <title type="html"><![CDATA[VPN]]></title>
+        <id>https://dev-js.osliu.cn/blog/VPN</id>
+        <link href="https://dev-js.osliu.cn/blog/VPN"/>
         <updated>2025-04-08T00:27:15.463Z</updated>
         <summary type="html"><![CDATA[使用 VPN 或类似的翻墙工具在我国是一个法律灰区，某些情况下可能会涉及法律风险。]]></summary>
         <content type="html"><![CDATA[<p>使用 VPN 或类似的翻墙工具在我国是一个法律灰区，某些情况下可能会涉及法律风险。</p>
 <!-- -->
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="如何正确使用">如何正确使用<a href="https://dev-js.osliu.cn/blog/%E4%BD%BF%E7%94%A8VPN%E8%BF%9D%E8%A7%84%E4%B9%88%EF%BC%9F#%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E4%BD%BF%E7%94%A8" class="hash-link" aria-label="如何正确使用的直接链接" title="如何正确使用的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="如何正确使用">如何正确使用<a href="https://dev-js.osliu.cn/blog/VPN#%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E4%BD%BF%E7%94%A8" class="hash-link" aria-label="如何正确使用的直接链接" title="如何正确使用的直接链接">​</a></h2>
 <p>企业如果需要使用 VPN 来进行跨境业务、远程办公等，可以通过合法途径申请和使用。根据我国的法律法规，企业使用 VPN 必须满足相关要求，并通过政府批准的正规渠道来获得许可。以下是企业申请 VPN 的一些基本步骤：</p>
 <ol>
 <li>
@@ -231,14 +231,14 @@
 <a href="https://hellosean1025.github.io/yapi/devops/index.html#%e5%ae%89%e8%a3%85" target="_blank" rel="noopener noreferrer">安装：https://hellosean1025.github.io/yapi/devops/index.html#%e5%ae%89%e8%a3%85</a></p>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[前端专业术语]]></title>
-        <id>https://dev-js.osliu.cn/blog/前端专业术语</id>
-        <link href="https://dev-js.osliu.cn/blog/前端专业术语"/>
+        <title type="html"><![CDATA[前端相关术语]]></title>
+        <id>https://dev-js.osliu.cn/blog/前端相关术语</id>
+        <link href="https://dev-js.osliu.cn/blog/前端相关术语"/>
         <updated>2025-03-19T04:03:29.156Z</updated>
         <summary type="html"><![CDATA[前端开发中有一些常见的术语，用来描述工具或技术。]]></summary>
         <content type="html"><![CDATA[<p>前端开发中有一些常见的术语，用来描述工具或技术。</p>
 <!-- -->
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="库library">库（Library）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E4%B8%93%E4%B8%9A%E6%9C%AF%E8%AF%AD#%E5%BA%93library" class="hash-link" aria-label="库（Library）的直接链接" title="库（Library）的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="库library">库（Library）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD#%E5%BA%93library" class="hash-link" aria-label="库（Library）的直接链接" title="库（Library）的直接链接">​</a></h2>
 <ul>
 <li>定义：库是一组功能集合，通常是调用库中的方法来完成任务。<!-- -->
 <ul>
@@ -247,7 +247,7 @@
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="框架framework">框架（Framework）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E4%B8%93%E4%B8%9A%E6%9C%AF%E8%AF%AD#%E6%A1%86%E6%9E%B6framework" class="hash-link" aria-label="框架（Framework）的直接链接" title="框架（Framework）的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="框架framework">框架（Framework）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD#%E6%A1%86%E6%9E%B6framework" class="hash-link" aria-label="框架（Framework）的直接链接" title="框架（Framework）的直接链接">​</a></h2>
 <ul>
 <li>定义：框架管理程序结构，通常是框架控制应用程序的流和方法。<!-- -->
 <ul>
@@ -255,7 +255,7 @@
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="插件plugin">插件（Plugin）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E4%B8%93%E4%B8%9A%E6%9C%AF%E8%AF%AD#%E6%8F%92%E4%BB%B6plugin" class="hash-link" aria-label="插件（Plugin）的直接链接" title="插件（Plugin）的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="插件plugin">插件（Plugin）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD#%E6%8F%92%E4%BB%B6plugin" class="hash-link" aria-label="插件（Plugin）的直接链接" title="插件（Plugin）的直接链接">​</a></h2>
 <ul>
 <li>定义：扩展现有工具或框架的功能。<!-- -->
 <ul>
@@ -263,7 +263,7 @@
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="模板template">模板（Template）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E4%B8%93%E4%B8%9A%E6%9C%AF%E8%AF%AD#%E6%A8%A1%E6%9D%BFtemplate" class="hash-link" aria-label="模板（Template）的直接链接" title="模板（Template）的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="模板template">模板（Template）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD#%E6%A8%A1%E6%9D%BFtemplate" class="hash-link" aria-label="模板（Template）的直接链接" title="模板（Template）的直接链接">​</a></h2>
 <ul>
 <li>定义：模板是一种用于快速生成特定类型项目或页面的预设结构。<!-- -->
 <ul>
@@ -272,7 +272,7 @@
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="工具tool">工具（Tool）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E4%B8%93%E4%B8%9A%E6%9C%AF%E8%AF%AD#%E5%B7%A5%E5%85%B7tool" class="hash-link" aria-label="工具（Tool）的直接链接" title="工具（Tool）的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="工具tool">工具（Tool）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD#%E5%B7%A5%E5%85%B7tool" class="hash-link" aria-label="工具（Tool）的直接链接" title="工具（Tool）的直接链接">​</a></h2>
 <ul>
 <li>定义：工具通常指的是一类为特定目的或任务开发的软件。<!-- -->
 <ul>
@@ -280,7 +280,7 @@
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="cli命令行工具">CLI（命令行工具）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E4%B8%93%E4%B8%9A%E6%9C%AF%E8%AF%AD#cli%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="CLI（命令行工具）的直接链接" title="CLI（命令行工具）的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="cli命令行工具">CLI（命令行工具）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD#cli%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="CLI（命令行工具）的直接链接" title="CLI（命令行工具）的直接链接">​</a></h2>
 <ul>
 <li>定义：CLI（Command Line Interface）工具通常是通过命令行接口操作的工具。<!-- -->
 <ul>
@@ -288,7 +288,7 @@
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="micro-frontend微前端">Micro-Frontend（微前端）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E4%B8%93%E4%B8%9A%E6%9C%AF%E8%AF%AD#micro-frontend%E5%BE%AE%E5%89%8D%E7%AB%AF" class="hash-link" aria-label="Micro-Frontend（微前端）的直接链接" title="Micro-Frontend（微前端）的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="micro-frontend微前端">Micro-Frontend（微前端）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD#micro-frontend%E5%BE%AE%E5%89%8D%E7%AB%AF" class="hash-link" aria-label="Micro-Frontend（微前端）的直接链接" title="Micro-Frontend（微前端）的直接链接">​</a></h2>
 <ul>
 <li>定义：微前端是将一个大型前端应用分割成多个较小、独立的前端应用的架构方式。每个微前端可以使用不同的技术栈、版本，甚至是独立开发和部署。<!-- -->
 <ul>
