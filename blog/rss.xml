@@ -4,10 +4,20 @@
         <title>_ | Blog</title>
         <link>https://dev-js.osliu.cn/blog</link>
         <description>_ | Blog</description>
-        <lastBuildDate>Mon, 14 Apr 2025 03:44:13 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Apr 2025 02:05:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[使用 Redis 的分布式锁]]></title>
+            <link>https://dev-js.osliu.cn/blog/2025 4 23/使用 Redis 的分布式锁</link>
+            <guid>https://dev-js.osliu.cn/blog/2025 4 23/使用 Redis 的分布式锁</guid>
+            <pubDate>Wed, 23 Apr 2025 02:05:23 GMT</pubDate>
+            <description><![CDATA[{/ truncate /}]]></description>
+            <content:encoded><![CDATA[
+<h1>参考链接</h1>
+<p><a href="https://redis.io/docs/latest/develop/use/patterns/distributed-locks/" target="_blank" rel="noopener noreferrer">使用 Redis 的分布式锁 https://redis.io/docs/latest/develop/use/patterns/distributed-locks/</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Electronjs博客阅读]]></title>
             <link>https://dev-js.osliu.cn/blog/Electronjs博客阅读</link>
@@ -112,41 +122,6 @@
 </li>
 </ol>
 <p>这些库各有特点和优势，选择合适的库取决于具体的项目需求和个人偏好。如果你刚开始接触 WebGL，Three.js 是一个很好的起点，因为它有丰富的文档和社区支持。</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[postfix]]></title>
-            <link>https://dev-js.osliu.cn/blog/Postfix/index copy</link>
-            <guid>https://dev-js.osliu.cn/blog/Postfix/index copy</guid>
-            <pubDate>Thu, 10 Apr 2025 03:26:57 GMT</pubDate>
-            <description><![CDATA[作者：]]></description>
-            <content:encoded><![CDATA[<p><a href="http://www.porcupine.org/wietse/" target="_blank" rel="noopener noreferrer">作者：</a></p>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="设计目的">设计目的<a href="https://dev-js.osliu.cn/blog/Postfix/index%20copy#%E8%AE%BE%E8%AE%A1%E7%9B%AE%E7%9A%84" class="hash-link" aria-label="设计目的的直接链接" title="设计目的的直接链接">​</a></h2>
-<p>首页要理解 postfix 做什么的，我们需要做什么。Postfix 邮件服务器，其外观具有明显的 Sendmail 风格，但其内部却完全不同。</p>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="优缺点">优缺点<a href="https://dev-js.osliu.cn/blog/Postfix/index%20copy#%E4%BC%98%E7%BC%BA%E7%82%B9" class="hash-link" aria-label="优缺点的直接链接" title="优缺点的直接链接">​</a></h2>
-<p>致力于实现快速、易于管理和安全。</p>
-<h1>参考链接</h1>
-<p><a href="https://www.postfix.org/" target="_blank" rel="noopener noreferrer">https://www.postfix.org/</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Postfix 基本配置]]></title>
-            <link>https://dev-js.osliu.cn/blog/Postfix/翻译/Postfix 基本配置</link>
-            <guid>https://dev-js.osliu.cn/blog/Postfix/翻译/Postfix 基本配置</guid>
-            <pubDate>Thu, 10 Apr 2025 03:26:57 GMT</pubDate>
-            <description><![CDATA[介绍]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_jQaM" id="介绍">介绍<a href="https://dev-js.osliu.cn/blog/Postfix/%E7%BF%BB%E8%AF%91/Postfix%20%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE#%E4%BB%8B%E7%BB%8D" class="hash-link" aria-label="介绍的直接链接" title="介绍的直接链接">​</a></h2>
-<p>Postfix 有数百个配置参数，这些参数通过 main.cf 文件进行控制。幸运的是，所有参数都有合理的默认值。在许多情况下，您只需配置两三个参数，就可以开始使用邮件系统。</p>
-<p>感兴趣的：</p>
-<ul>
-<li>外发邮件使用什么域名</li>
-<li>将邮件转发到哪些目的地</li>
-<li>从哪些客户端中继邮件</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="postfix-配置文件">Postfix 配置文件<a href="https://dev-js.osliu.cn/blog/Postfix/%E7%BF%BB%E8%AF%91/Postfix%20%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE#postfix-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6" class="hash-link" aria-label="Postfix 配置文件的直接链接" title="Postfix 配置文件的直接链接">​</a></h2>
-<p>默认情况下，两个最重要的文件是 main.cf 和 master.cf。</p>
-<p>配置参数语法格式：</p>
-<div class="language-shell codeBlockContainer_exce theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_PZLX"><pre tabindex="0" class="prism-code language-shell codeBlock_hFc6 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_Y79P"><span class="token-line" style="color:#393A34"><span class="token plain"># /etc/postfix/main.cf：​</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    参数 = 值</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    其他参数 = $参数</span><br></span></code></pre><div class="buttonGroup_rYgN"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_gcRC" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_qfCN"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_NDHU"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>Postfix 使用数据库文件进行访问控制、地址重写和其他用途。</p>
-<div class="language-shell codeBlockContainer_exce theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_PZLX"><pre tabindex="0" class="prism-code language-shell codeBlock_hFc6 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_Y79P"><span class="token-line" style="color:#393A34"><span class="token plain"># /etc/postfix/main.cf:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    virtual_alias_maps = hash:/etc/postfix/virtual</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># postfix reload</span><br></span></code></pre><div class="buttonGroup_rYgN"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_gcRC" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_qfCN"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_NDHU"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[VPN]]></title>
@@ -438,8 +413,9 @@
             <link>https://dev-js.osliu.cn/blog/sentry</link>
             <guid>https://dev-js.osliu.cn/blog/sentry</guid>
             <pubDate>Sun, 09 Mar 2025 05:38:44 GMT</pubDate>
-            <description><![CDATA[参考链接]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_jQaM" id="参考链接">参考链接<a href="https://dev-js.osliu.cn/blog/sentry#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5" class="hash-link" aria-label="参考链接的直接链接" title="参考链接的直接链接">​</a></h2>
+            <description><![CDATA[{/ truncate /}]]></description>
+            <content:encoded><![CDATA[
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="参考链接">参考链接<a href="https://dev-js.osliu.cn/blog/sentry#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5" class="hash-link" aria-label="参考链接的直接链接" title="参考链接的直接链接">​</a></h2>
 <p><a href="https://sentry.io/" target="_blank" rel="noopener noreferrer">https://sentry.io/</a></p>]]></content:encoded>
         </item>
         <item>
@@ -605,6 +581,31 @@
 <h2 class="anchor anchorWithStickyNavbar_jQaM" id="字节的-web-基础设施团队">字节的 Web 基础设施团队<a href="https://dev-js.osliu.cn/blog/%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA#%E5%AD%97%E8%8A%82%E7%9A%84-web-%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E5%9B%A2%E9%98%9F" class="hash-link" aria-label="字节的 Web 基础设施团队的直接链接" title="字节的 Web 基础设施团队的直接链接">​</a></h2>
 <p><a href="https://webinfra.org/" target="_blank" rel="noopener noreferrer">开源项目，出版物：https://webinfra.org/</a>
 <a href="https://github.com/orgs/web-infra-dev/discussions/9" target="_blank" rel="noopener noreferrer">深入探究顶层 await：https://github.com/orgs/web-infra-dev/discussions/9</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[设计师软件]]></title>
+            <link>https://dev-js.osliu.cn/blog/设计师软件</link>
+            <guid>https://dev-js.osliu.cn/blog/设计师软件</guid>
+            <pubDate>Thu, 01 Jan 1970 10:00:00 GMT</pubDate>
+            <description><![CDATA[{/ truncate /}]]></description>
+            <content:encoded><![CDATA[
+<blockquote>
+<p>2D 平面设计</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_jQaM" id="ps">PS<a href="https://dev-js.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#ps" class="hash-link" aria-label="PS的直接链接" title="PS的直接链接">​</a></h3>
+<p>与前端web开发有交接</p>
+<h3 class="anchor anchorWithStickyNavbar_jQaM" id="cad">CAD<a href="https://dev-js.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#cad" class="hash-link" aria-label="CAD的直接链接" title="CAD的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_jQaM" id="figma">Figma<a href="https://dev-js.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#figma" class="hash-link" aria-label="Figma的直接链接" title="Figma的直接链接">​</a></h3>
+<p>与前端web开发有交接</p>
+<blockquote>
+<p>3D 建模设计</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_jQaM" id="3dmax">3DMAX<a href="https://dev-js.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#3dmax" class="hash-link" aria-label="3DMAX的直接链接" title="3DMAX的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_jQaM" id="blender">Blender<a href="https://dev-js.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#blender" class="hash-link" aria-label="Blender的直接链接" title="Blender的直接链接">​</a></h3>
+<p>与前端3D开发有交接</p>
+<h3 class="anchor anchorWithStickyNavbar_jQaM" id="maya">Maya<a href="https://dev-js.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#maya" class="hash-link" aria-label="Maya的直接链接" title="Maya的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_jQaM" id="unity">Unity<a href="https://dev-js.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#unity" class="hash-link" aria-label="Unity的直接链接" title="Unity的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_jQaM" id="unrealengine">Unrealengine<a href="https://dev-js.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#unrealengine" class="hash-link" aria-label="Unrealengine的直接链接" title="Unrealengine的直接链接">​</a></h3>]]></content:encoded>
         </item>
     </channel>
 </rss>
