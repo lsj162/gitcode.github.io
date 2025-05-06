@@ -4,10 +4,145 @@
         <title>_ | Blog</title>
         <link>https://dev-js.osliu.cn/blog</link>
         <description>_ | Blog</description>
-        <lastBuildDate>Thu, 01 May 2025 02:22:59 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 May 2025 09:32:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[非前端入行？了解前端开发相关。]]></title>
+            <link>https://dev-js.osliu.cn/blog/非前端入行？</link>
+            <guid>https://dev-js.osliu.cn/blog/非前端入行？</guid>
+            <pubDate>Tue, 06 May 2025 09:32:22 GMT</pubDate>
+            <description><![CDATA[兴趣很重要。想想你对什么感兴趣，在决定学习相关？最后找到你喜欢的工作。]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-tip admonition_xsfO alert alert--success"><div class="admonitionHeading_ThUT"><span class="admonitionIcon_q0Sn"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>提示</div><div class="admonitionContent_T4n_"><p>兴趣很重要。想想你对什么感兴趣，在决定学习相关？最后找到你喜欢的工作。</p></div></div>
+<ol>
+<li>
+<p>职业前景：</p>
+<ul>
+<li>市场竞争：可以先了解一下当前市场的需求和竞争情况，这使得找到一份好工作变得<code>更加困难</code>。</li>
+<li>技术更新快：Web 开发技术更新非常快，需要<code>不断学习</code>和适应新的框架和工具。</li>
+<li>建议：在决定投入之前，是否愿意投入额外的时间和资源来提升自己的<code>竞争力</code>。</li>
+</ul>
+</li>
+<li>
+<p>工作压力：</p>
+<ul>
+<li>项目期限：Web 开发项目通常有严格的<code>期限</code>，可能导致<code>长时间</code>的工作和<code>高压力</code>。</li>
+<li>客户需求变化：客户的需求可能会<code>频繁</code>变化，这需要开发人员具备良好的沟通能力和灵活性。</li>
+<li>建议：可以尝试参加一些短期课程或在线学习平台，看看自己是否适应这种<code>学习节奏</code>。</li>
+</ul>
+</li>
+<li>
+<p>个人兴趣：</p>
+<ul>
+<li>兴趣不符：如果对方对编程和设计没有强烈的兴趣，可能会在工作中感到<code>乏味和不满</code>。</li>
+<li>创造性需求：Web 开发不仅仅是技术工作，还需要一定的创造性。如果对方更喜欢<code>逻辑性强</code>的工作，可能会觉得不合适。</li>
+<li>建议：考虑与一些有经验的 Web 开发人员交流，了解他们的<code>工作感受</code>和应对策略。</li>
+</ul>
+</li>
+<li>
+<p>替代选择：</p>
+<ul>
+<li>其他技术领域：可以建议对方考虑其他技术领域，如数据分析、<code>人工智能</code>、<code>网络安全</code>等，这些领域也有很好的职业前景。</li>
+<li>非技术职业：如果对方对技术工作不感兴趣，可以建议他们探索其他职业路径，如<code>市场营销</code>、项目管理、客户服务等。</li>
+</ul>
+</li>
+<li>
+<p>个人发展：</p>
+<ul>
+<li>长期发展：讨论 Web 开发对个人长期发展的影响，看看是否与对方的职业目标一致。</li>
+<li>技能转移：如果对方已经具备一些 Web 开发技能，可以探讨如何将这些技能应用到<code>其他领域</code>。</li>
+</ul>
+</li>
+</ol>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[搭建本地 npm 包管理？]]></title>
+            <link>https://dev-js.osliu.cn/blog/搭建本地npm包管理？</link>
+            <guid>https://dev-js.osliu.cn/blog/搭建本地npm包管理？</guid>
+            <pubDate>Tue, 06 May 2025 00:33:20 GMT</pubDate>
+            <description><![CDATA[verdaccio：https://verdaccio.org/zh-cn/]]></description>
+            <content:encoded><![CDATA[<h1>参考链接</h1>
+<p><a href="https://verdaccio.org/zh-cn/" target="_blank" rel="noopener noreferrer">verdaccio：https://verdaccio.org/zh-cn/</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[浏览器工作原理？]]></title>
+            <link>https://dev-js.osliu.cn/blog/浏览器工作原理？</link>
+            <guid>https://dev-js.osliu.cn/blog/浏览器工作原理？</guid>
+            <pubDate>Sun, 04 May 2025 01:13:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CDN 服务]]></title>
+            <link>https://dev-js.osliu.cn/blog/CDN</link>
+            <guid>https://dev-js.osliu.cn/blog/CDN</guid>
+            <pubDate>Sat, 03 May 2025 10:01:30 GMT</pubDate>
+            <description><![CDATA[一句话总结 CDN 就是 “就近访问”]]></description>
+            <content:encoded><![CDATA[<p>一句话总结 CDN 就是 “就近访问”</p>
+<!-- -->
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="cdn-是怎么工作的">CDN 是怎么工作的？<a href="https://dev-js.osliu.cn/blog/CDN#cdn-%E6%98%AF%E6%80%8E%E4%B9%88%E5%B7%A5%E4%BD%9C%E7%9A%84" class="hash-link" aria-label="CDN 是怎么工作的？的直接链接" title="CDN 是怎么工作的？的直接链接">​</a></h2>
+<p>把域名的解析托管给 CDN，以阿里云 CDN 为例：</p>
+<table><thead><tr><th>模式</th><th>描述</th></tr></thead><tbody><tr><td><strong>CNAME 接入（常见）</strong></td><td>你的域名（如 <code>static.example.com</code>）DNS 记录设为 <code>CNAME cdn.abc.aliyun.com</code>，这就是把 DNS 权限交给了 CDN，它会动态返回最近的 CDN 节点 IP</td></tr><tr><td><strong>NS 接入（高级）</strong></td><td>把你的域名的 NS（Name Server）记录改为 CDN 提供的 DNS，比如 Cloudflare 的 <code>ns1.cloudflare.com</code>，CDN 完全接管你这个域名的解析</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="cdn-实现原理">CDN 实现原理<a href="https://dev-js.osliu.cn/blog/CDN#cdn-%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86" class="hash-link" aria-label="CDN 实现原理的直接链接" title="CDN 实现原理的直接链接">​</a></h2>
+<ol>
+<li>
+<p>GeoDNS 是什么？
+GeoDNS（地理 DNS 路由）是一种 DNS 技术，根据用户的来源 IP 所属地，返回不同的 IP 地址，让用户访问到“就近的服务器”。</p>
+<p>🌍 举个例子：</p>
+<ul>
+<li>👤 广州用户 → 解析域名 → 返回广州节点 IP：120.10.1.1</li>
+<li>👤 北京用户 → 解析域名 → 返回北京节点 IP：119.8.9.2</li>
+<li>👤 东京用户 → 解析域名 → 返回东京节点 IP：180.1.3.4</li>
+</ul>
+</li>
+<li>
+<p>Anycast 是什么？
+Anycast 是一种 IP 路由机制，属于 BGP（Border Gateway Protocol）协议实现的一种策略。</p>
+<p>🌍 举个例子：</p>
+<ul>
+<li>你配置一个 IP 地址：203.0.113.1</li>
+<li>你把这个 IP 部署到北京、东京、洛杉矶、巴黎的数据中心</li>
+<li>用户访问这个 IP 时，不需要 DNS 控制，网络会自动根据 BGP 路由到最近那个</li>
+</ul>
+</li>
+</ol>
+<h1></h1>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[数据行业大揭秘！DA/BA/DS 都是啥？]]></title>
+            <link>https://dev-js.osliu.cn/blog/数据行业大揭秘！</link>
+            <guid>https://dev-js.osliu.cn/blog/数据行业大揭秘！</guid>
+            <pubDate>Fri, 02 May 2025 04:22:49 GMT</pubDate>
+            <description><![CDATA[数据]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_jQaM" id="数据">数据<a href="https://dev-js.osliu.cn/blog/%E6%95%B0%E6%8D%AE%E8%A1%8C%E4%B8%9A%E5%A4%A7%E6%8F%AD%E7%A7%98%EF%BC%81#%E6%95%B0%E6%8D%AE" class="hash-link" aria-label="数据的直接链接" title="数据的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_jQaM" id="1-明确问题">1. 明确问题<a href="https://dev-js.osliu.cn/blog/%E6%95%B0%E6%8D%AE%E8%A1%8C%E4%B8%9A%E5%A4%A7%E6%8F%AD%E7%A7%98%EF%BC%81#1-%E6%98%8E%E7%A1%AE%E9%97%AE%E9%A2%98" class="hash-link" aria-label="1. 明确问题的直接链接" title="1. 明确问题的直接链接">​</a></h3>
+<ul>
+<li>商业分析师（BA）business analyst</li>
+<li>数据分析师（DA）data analyst</li>
+<li>商业智能（BI）business intelligence</li>
+</ul>
+<p>核心能力：解决问题，分析问题能力。</p>
+<h3 class="anchor anchorWithStickyNavbar_jQaM" id="2-抓取数据">2. 抓取数据<a href="https://dev-js.osliu.cn/blog/%E6%95%B0%E6%8D%AE%E8%A1%8C%E4%B8%9A%E5%A4%A7%E6%8F%AD%E7%A7%98%EF%BC%81#2-%E6%8A%93%E5%8F%96%E6%95%B0%E6%8D%AE" class="hash-link" aria-label="2. 抓取数据的直接链接" title="2. 抓取数据的直接链接">​</a></h3>
+<ul>
+<li>数据分析师（DA）data analyst</li>
+<li>数据工程师（DE）data enginner</li>
+</ul>
+<p>核心能力：sql，爬虫能力。</p>
+<h3 class="anchor anchorWithStickyNavbar_jQaM" id="3-数据清理">3. 数据清理<a href="https://dev-js.osliu.cn/blog/%E6%95%B0%E6%8D%AE%E8%A1%8C%E4%B8%9A%E5%A4%A7%E6%8F%AD%E7%A7%98%EF%BC%81#3-%E6%95%B0%E6%8D%AE%E6%B8%85%E7%90%86" class="hash-link" aria-label="3. 数据清理的直接链接" title="3. 数据清理的直接链接">​</a></h3>
+<p>垃圾进，垃圾出</p>
+<p>核心能力：sql，python；运用 numpy，pandas。</p>
+<h3 class="anchor anchorWithStickyNavbar_jQaM" id="4-建模分析">4. 建模分析<a href="https://dev-js.osliu.cn/blog/%E6%95%B0%E6%8D%AE%E8%A1%8C%E4%B8%9A%E5%A4%A7%E6%8F%AD%E7%A7%98%EF%BC%81#4-%E5%BB%BA%E6%A8%A1%E5%88%86%E6%9E%90" class="hash-link" aria-label="4. 建模分析的直接链接" title="4. 建模分析的直接链接">​</a></h3>
+<ul>
+<li>数据工程师（DS）data scientist</li>
+</ul>
+<p>核心能力：统计建模类（统计，概率，回归，时间序列，建模等）；机器学习（深度学习，集成学习，监督学习，NLP 等）</p>
+<h3 class="anchor anchorWithStickyNavbar_jQaM" id="5-执行">5. 执行<a href="https://dev-js.osliu.cn/blog/%E6%95%B0%E6%8D%AE%E8%A1%8C%E4%B8%9A%E5%A4%A7%E6%8F%AD%E7%A7%98%EF%BC%81#5-%E6%89%A7%E8%A1%8C" class="hash-link" aria-label="5. 执行的直接链接" title="5. 执行的直接链接">​</a></h3>
+<ul>
+<li>商业分析师（BA）business analyst</li>
+</ul>
+<p>核心能力：Excel，Power BI</p>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="参考链接">参考链接<a href="https://dev-js.osliu.cn/blog/%E6%95%B0%E6%8D%AE%E8%A1%8C%E4%B8%9A%E5%A4%A7%E6%8F%AD%E7%A7%98%EF%BC%81#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5" class="hash-link" aria-label="参考链接的直接链接" title="参考链接的直接链接">​</a></h2>
+<p><a href="https://www.youtube.com/watch?v=C366hnsI8UI&amp;ab_channel=%E5%B0%8FLin%E8%AF%B4" target="_blank" rel="noopener noreferrer">数据行业大揭秘！DA/BA/DS 都是啥？【小 Lin 干货】 https://www.youtube.com/watch?v=C366hnsI8UI&amp;ab_channel=%E5%B0%8FLin%E8%AF%B4</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[设计师软件]]></title>
             <link>https://dev-js.osliu.cn/blog/设计师软件</link>
@@ -361,87 +496,6 @@
 要是混熟了，搞得一枚令牌天天跑着，那也得交个混熟的费用。（每个士兵接待流量 100 条左右，超过计服务费）。</p><p><a href="https://postmarkapp.com/pricing" target="_blank" rel="noopener noreferrer">对比邮箱价格</a></p></div></div>
 <h1>参考链接</h1>
 <p><a href="https://www.postfix.org/documentation.html" target="_blank" rel="noopener noreferrer">https://www.postfix.org/documentation.html</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[git]]></title>
-            <link>https://dev-js.osliu.cn/blog/git</link>
-            <guid>https://dev-js.osliu.cn/blog/git</guid>
-            <pubDate>Sun, 09 Mar 2025 05:38:45 GMT</pubDate>
-            <description><![CDATA[GIT 操作命令]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_jQaM" id="git-操作命令">GIT 操作命令<a href="https://dev-js.osliu.cn/blog/git#git-%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4" class="hash-link" aria-label="GIT 操作命令的直接链接" title="GIT 操作命令的直接链接">​</a></h2>
-<!-- -->
-<ul>
-<li>git config user.name [查看用户名]</li>
-<li>git config user.email [邮箱地址]</li>
-<li>git config --global user.name "username" [全局修改用户名]</li>
-<li>git config --global user.email "email" [邮箱地址]</li>
-<li>git config user.name "username"[局部]</li>
-<li>git config user.email "email"[局部]</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="提交准备">提交准备<a href="https://dev-js.osliu.cn/blog/git#%E6%8F%90%E4%BA%A4%E5%87%86%E5%A4%87" class="hash-link" aria-label="提交准备的直接链接" title="提交准备的直接链接">​</a></h2>
-<ul>
-<li>git init [初始化]</li>
-<li>git add [放入暂存区]</li>
-<li>git status [状态]</li>
-<li>git commit -m [提交并说明]</li>
-<li>git diff [查看修改内容]</li>
-<li>git reset --hard commit_id [回退和恢复版本分支]</li>
-<li>git checkout -- file [工作区的内容修改撤销]</li>
-<li>rm || git rm [删除工作区||暂存区]</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="github">Github<a href="https://dev-js.osliu.cn/blog/git#github" class="hash-link" aria-label="Github的直接链接" title="Github的直接链接">​</a></h2>
-<p>一旦提交推送到远程版本库，就形成记录 ……</p>
-<ul>
-<li>ssh [密码]</li>
-<li>git remote -v [远程库信息]</li>
-<li>git remote add origin <a href="mailto:git@github.com" target="_blank" rel="noopener noreferrer">git@github.com</a>:somewhile<!-- -->/systemjs.git [git 关联 github]</li>
-<li>git branch --set-upstream-to=origin name [关联远程分支]</li>
-<li>git remote rm origin [删除关联]</li>
-<li>git push -u origin master [推送]</li>
-<li>git pull [更新]</li>
-<li>git clone --depth=1 [克隆且最近一次提交分支]</li>
-<li>git stash [pull 冲突，本地暂时先存储起来]</li>
-<li>git stash pop stash@<!-- -->0<!-- --> [删除暂存]</li>
-<li>git stash apply [恢复当前分支]</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="分支管理">分支管理<a href="https://dev-js.osliu.cn/blog/git#%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86" class="hash-link" aria-label="分支管理的直接链接" title="分支管理的直接链接">​</a></h2>
-<ul>
-<li>git checkout -b name 远程或本地 [创建分支]</li>
-<li>git push origin [提交分支]</li>
-<li>git branch [查看]</li>
-<li>git checkout master [切换分支]</li>
-<li>git merge dev [合并分支]</li>
-<li>git branch -d||D dev [删除分支,不合并强制删除]</li>
-<li>git push --set-upstream origin name [提交远程分支]</li>
-<li>git push --delete origin name [删除远程分支]</li>
-</ul>
-<div class="theme-admonition theme-admonition-info admonition_xsfO alert alert--info"><div class="admonitionHeading_ThUT"><span class="admonitionIcon_q0Sn"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>信息</div><div class="admonitionContent_T4n_"><p>GitHub 被 Microsoft 公司于 2018 年以 75 亿美元的价格收购。</p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="参考链接">参考链接<a href="https://dev-js.osliu.cn/blog/git#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5" class="hash-link" aria-label="参考链接的直接链接" title="参考链接的直接链接">​</a></h2>
-<p><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">官网 https://git-scm.com/</a></p>
-<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank" rel="noopener noreferrer">廖雪峰 Git 教程：https://www.liaoxuefeng.com</a></p>
-<p><a href="https://zj-git-guide.readthedocs.io/zh_CN/latest/message/Angular%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E8%A7%84%E8%8C%83/" target="_blank" rel="noopener noreferrer">Git commit 规范，Angular 提交信息规范：https://zj-git-guide.readthedocs.io</a></p>
-<pre tabindex="0" class="codeBlockStandalone_OgHV thin-scrollbar codeBlockContainer_exce theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><code class="codeBlockLines_Y79P"></code></pre>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[curl]]></title>
-            <link>https://dev-js.osliu.cn/blog/curl</link>
-            <guid>https://dev-js.osliu.cn/blog/curl</guid>
-            <pubDate>Sun, 09 Mar 2025 05:38:45 GMT</pubDate>
-            <description><![CDATA[{/ truncate /}]]></description>
-            <content:encoded><![CDATA[
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="参考链接">参考链接<a href="https://dev-js.osliu.cn/blog/curl#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5" class="hash-link" aria-label="参考链接的直接链接" title="参考链接的直接链接">​</a></h2>
-<p><a href="https://curl.se/" target="_blank" rel="noopener noreferrer">官网 https://curl.se/</a></p>
-<p><a href="https://www.ruanyifeng.com/blog/2019/09/curl-reference.html" target="_blank" rel="noopener noreferrer">阮一峰的网络日志 » CURL 的用法指南</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[sentry]]></title>
-            <link>https://dev-js.osliu.cn/blog/sentry</link>
-            <guid>https://dev-js.osliu.cn/blog/sentry</guid>
-            <pubDate>Sun, 09 Mar 2025 05:38:44 GMT</pubDate>
-            <description><![CDATA[{/ truncate /}]]></description>
-            <content:encoded><![CDATA[
-<h2 class="anchor anchorWithStickyNavbar_jQaM" id="参考链接">参考链接<a href="https://dev-js.osliu.cn/blog/sentry#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5" class="hash-link" aria-label="参考链接的直接链接" title="参考链接的直接链接">​</a></h2>
-<p><a href="https://sentry.io/" target="_blank" rel="noopener noreferrer">https://sentry.io/</a></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[文档工具]]></title>
