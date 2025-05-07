@@ -66,10 +66,14 @@
 <p><a href="https://verdaccio.org/zh-cn/" target="_blank" rel="noopener noreferrer">verdaccio：https://verdaccio.org/zh-cn/</a></p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[浏览器工作原理？]]></title>
+            <title><![CDATA[浏览器的工作原理]]></title>
             <link>https://dev-js.osliu.cn/blog/浏览器工作原理？</link>
             <guid>https://dev-js.osliu.cn/blog/浏览器工作原理？</guid>
             <pubDate>Sun, 04 May 2025 01:13:01 GMT</pubDate>
+            <description><![CDATA[{/ truncate /}]]></description>
+            <content:encoded><![CDATA[
+<h1>参考链接</h1>
+<p><a href="https://web.developers.google.cn/articles/howbrowserswork?hl=zh-cn" target="_blank" rel="noopener noreferrer">浏览器的工作方式：https://web.developers.google.cn/articles/howbrowserswork?hl=zh-cn</a></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[CDN 服务]]></title>
