@@ -61,8 +61,9 @@
         <id>https://dev-js.osliu.cn/blog/搭建本地npm包管理？</id>
         <link href="https://dev-js.osliu.cn/blog/搭建本地npm包管理？"/>
         <updated>2025-05-06T00:33:20.744Z</updated>
-        <summary type="html"><![CDATA[verdaccio：https://verdaccio.org/zh-cn/]]></summary>
-        <content type="html"><![CDATA[<h1>参考链接</h1>
+        <summary type="html"><![CDATA[{/ truncate /}]]></summary>
+        <content type="html"><![CDATA[
+<h1>参考链接</h1>
 <p><a href="https://verdaccio.org/zh-cn/" target="_blank" rel="noopener noreferrer">verdaccio：https://verdaccio.org/zh-cn/</a></p>]]></content>
     </entry>
     <entry>
