@@ -505,6 +505,83 @@ Anycast 是一种 IP 路由机制，属于 BGP（Border Gateway Protocol）协�
 <p><a href="https://www.postfix.org/documentation.html" target="_blank" rel="noopener noreferrer">https://www.postfix.org/documentation.html</a></p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[前端面试题]]></title>
+            <link>https://dev-js.osliu.cn/blog/前端相关面试题</link>
+            <guid>https://dev-js.osliu.cn/blog/前端相关面试题</guid>
+            <pubDate>Sun, 09 Mar 2025 05:38:45 GMT</pubDate>
+            <description><![CDATA[HTML/CSS]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_jQaM" id="htmlcss">HTML/CSS<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#htmlcss" class="hash-link" aria-label="HTML/CSS的直接链接" title="HTML/CSS的直接链接">​</a></h2>
+<ul>
+<li>HTML 基础：语义化标签、表单、SEO 优化等。</li>
+<li>CSS 基础：选择器、盒模型、布局（如 Flexbox、Grid）、响应式设计等。</li>
+<li>CSS 预处理器：如 Sass、Less 的使用。</li>
+<li>CSS3 新特性：如动画、过渡效果、渐变等。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="javascript">JavaScript<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#javascript" class="hash-link" aria-label="JavaScript的直接链接" title="JavaScript的直接链接">​</a></h2>
+<ul>
+<li>基础知识：变量、数据类型、运算符、控制结构、函数、作用域、闭包等。</li>
+<li>高级特性：原型链、面向对象编程（OOP）、异步编程（回调、Promise、async/await）、事件循环等。</li>
+<li>ES6+新特性：箭头函数、解构赋值、模块化（import/export）、类（class）等。</li>
+<li>DOM 操作：节点操作、事件处理、样式和内容修改等。</li>
+<li>错误处理和调试：try/catch 等。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="react">React<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#react" class="hash-link" aria-label="React的直接链接" title="React的直接链接">​</a></h2>
+<ul>
+<li>React：组件、状态管理（Redux、MobX）、生命周期、Hooks 等。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="vue">Vue<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#vue" class="hash-link" aria-label="Vue的直接链接" title="Vue的直接链接">​</a></h2>
+<ul>
+<li>Vue.js：组件、指令、Vuex、Vue Router 等。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="构建工具和自动化">构建工具和自动化<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E5%92%8C%E8%87%AA%E5%8A%A8%E5%8C%96" class="hash-link" aria-label="构建工具和自动化的直接链接" title="构建工具和自动化的直接链接">​</a></h2>
+<ul>
+<li>模块打包工具：Webpack、Parcel、Rollup 等。</li>
+<li>代码转换和优化：Babel、PostCSS 等。</li>
+<li>版本控制：Git 的基本使用、常见命令、Git Flow 等。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="性能优化">性能优化<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96" class="hash-link" aria-label="性能优化的直接链接" title="性能优化的直接链接">​</a></h2>
+<ul>
+<li>资源优化：图片压缩、代码压缩、懒加载等。</li>
+<li>渲染优化：减少重绘和回流、使用虚拟 DOM 等。</li>
+<li>网络优化：使用 CDN、缓存策略、HTTP/2 等。</li>
+<li>性能测量和监控：使用 Lighthouse、Chrome DevTools 等工具。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="浏览器">浏览器<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#%E6%B5%8F%E8%A7%88%E5%99%A8" class="hash-link" aria-label="浏览器的直接链接" title="浏览器的直接链接">​</a></h2>
+<ul>
+<li>浏览器工作原理：渲染引擎、JavaScript 引擎等。</li>
+<li>常见兼容性问题：CSS Hack、Polyfill 使用等。</li>
+<li>移动端浏览器：响应式设计、移动端事件处理等。</li>
+<li>跨域：请求跨域等。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="安全">安全<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#%E5%AE%89%E5%85%A8" class="hash-link" aria-label="安全的直接链接" title="安全的直接链接">​</a></h2>
+<ul>
+<li>常见攻击方式：XSS、CSRF、点击劫持等。</li>
+<li>安全编码实践：输入验证、输出编码、Content Security Policy（CSP）等。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="测试">测试<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#%E6%B5%8B%E8%AF%95" class="hash-link" aria-label="测试的直接链接" title="测试的直接链接">​</a></h2>
+<ul>
+<li>单元测试：Jest、Mocha、Chai 等。</li>
+<li>集成测试：Selenium、Cypress 等。</li>
+<li>端到端测试：Puppeteer、Playwright 等。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="算法和数据结构">算法和数据结构<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#%E7%AE%97%E6%B3%95%E5%92%8C%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84" class="hash-link" aria-label="算法和数据结构的直接链接" title="算法和数据结构的直接链接">​</a></h2>
+<ul>
+<li>常见算法：排序、搜索、递归、动态规划等。</li>
+<li>常见数据结构：数组、链表、栈、队列、树、图等。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="项目经验">项目经验<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#%E9%A1%B9%E7%9B%AE%E7%BB%8F%E9%AA%8C" class="hash-link" aria-label="项目经验的直接链接" title="项目经验的直接链接">​</a></h2>
+<ul>
+<li>项目描述：项目背景、目标、角色等。</li>
+<li>技术选型：为什么选择某些技术栈。</li>
+<li>问题解决：遇到的问题及解决方案。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_jQaM" id="其他">其他<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#%E5%85%B6%E4%BB%96" class="hash-link" aria-label="其他的直接链接" title="其他的直接链接">​</a></h2>
+<ul>
+<li>软技能：沟通能力、团队合作、学习能力等。</li>
+<li>职业规划：对前端发展的看法、职业目标等。</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[文档工具]]></title>
             <link>https://dev-js.osliu.cn/blog/文档工具</link>
             <guid>https://dev-js.osliu.cn/blog/文档工具</guid>
