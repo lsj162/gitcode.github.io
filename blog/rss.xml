@@ -127,6 +127,85 @@ Anycast 是一种 IP 路由机制，属于 BGP（Border Gateway Protocol）协�
 <h3 class="anchor anchorWithStickyNavbar_KzqO" id="unrealengine">Unrealengine<a href="https://dev-js.osliu.cn/blog/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%BD%AF%E4%BB%B6#unrealengine" class="hash-link" aria-label="Unrealengine的直接链接" title="Unrealengine的直接链接">​</a></h3>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[快应用]]></title>
+            <link>https://dev-js.osliu.cn/blog/快应用</link>
+            <guid>https://dev-js.osliu.cn/blog/快应用</guid>
+            <pubDate>Thu, 01 May 2025 02:21:58 GMT</pubDate>
+            <description><![CDATA[“快应用开发”是指基于 快应用（Quick App）平台 的一种应用开发方式，它由 华为、小米、OPPO、vivo 等国内手机厂商联合推出，目的是在不安装 App 的前提下，让用户享受接近原生应用体验的轻量级应用。]]></description>
+            <content:encoded><![CDATA[<p>“快应用开发”是指基于 快应用（Quick App）平台 的一种应用开发方式，它由 华为、小米、OPPO、vivo 等国内手机厂商联合推出，目的是在不安装 App 的前提下，让用户享受接近原生应用体验的轻量级应用。</p>
+<!-- -->
+<h2 class="anchor anchorWithStickyNavbar_KzqO" id="对比">对比<a href="https://dev-js.osliu.cn/blog/%E5%BF%AB%E5%BA%94%E7%94%A8#%E5%AF%B9%E6%AF%94" class="hash-link" aria-label="对比的直接链接" title="对比的直接链接">​</a></h2>
+<table><thead><tr><th>特点</th><th>快应用</th><th>微信小程序</th><th>H5 页面</th><th>原生 App</th></tr></thead><tbody><tr><td>启动速度</td><td>快</td><td>较快</td><td>慢</td><td>快</td></tr><tr><td>安装需求</td><td>无需安装</td><td>无需安装</td><td>无需安装</td><td>需安装</td></tr><tr><td>功能能力</td><td>接近原生</td><td>接近原生</td><td>受限</td><td>完整</td></tr><tr><td>发布渠道</td><td>安卓厂商平台</td><td>各家小程序平台</td><td>浏览器</td><td>各大应用市场</td></tr><tr><td>应用体积</td><td>几百 KB</td><td>几百 KB</td><td>较小</td><td>几 MB ～ 上百 MB</td></tr><tr><td>引擎支持</td><td>安卓厂商快应用引擎</td><td>小程序引擎</td><td>浏览器</td><td>操作系统</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_KzqO" id="学习路线">学习路线<a href="https://dev-js.osliu.cn/blog/%E5%BF%AB%E5%BA%94%E7%94%A8#%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF" class="hash-link" aria-label="学习路线的直接链接" title="学习路线的直接链接">​</a></h2>
+<ol>
+<li>语言 JavaScript + JSON + .ux（类似 Vue）</li>
+<li>学习 .ux 文件结构和页面生命周期</li>
+<li>了解 manifest 配置和权限声明</li>
+<li>学会页面跳转和组件封装</li>
+<li>熟悉快应用 API（重点）</li>
+<li>使用官方 IDE 创建、运行、打包项目</li>
+<li>真机调试 + 发布流程</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_KzqO" id="发布流程">发布流程：<a href="https://dev-js.osliu.cn/blog/%E5%BF%AB%E5%BA%94%E7%94%A8#%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B" class="hash-link" aria-label="发布流程：的直接链接" title="发布流程：的直接链接">​</a></h2>
+<ol>
+<li>注册快应用联盟账号（<a href="https://www.quickapp.cn)/" target="_blank" rel="noopener noreferrer">https://www.quickapp.cn）</a></li>
+<li>使用快应用开发工具进行开发、调试</li>
+<li>打包生成 .rpk 文件（快应用包）</li>
+<li>提交至厂商平台（如华为应用市场、OPPO 快应用中心等）</li>
+<li>审核上线（通常为 1~3 个工作日）</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_KzqO" id="软件下载">软件下载：<a href="https://dev-js.osliu.cn/blog/%E5%BF%AB%E5%BA%94%E7%94%A8#%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD" class="hash-link" aria-label="软件下载：的直接链接" title="软件下载：的直接链接">​</a></h2>
+<p><a href="https://www.quickapp.cn/devtool" target="_blank" rel="noopener noreferrer">快应用官网推荐使用开发者工具（IDE）开发</a></p>
+<h2 class="anchor anchorWithStickyNavbar_KzqO" id="注册账号">注册账号<a href="https://dev-js.osliu.cn/blog/%E5%BF%AB%E5%BA%94%E7%94%A8#%E6%B3%A8%E5%86%8C%E8%B4%A6%E5%8F%B7" class="hash-link" aria-label="注册账号的直接链接" title="注册账号的直接链接">​</a></h2>
+<p>你需要在各大安卓厂商的 快应用开发平台 注册开发者账号：</p>
+<table><thead><tr><th>厂商</th><th>快应用平台地址</th></tr></thead><tbody><tr><td>华为</td><td><a href="https://developer.huawei.com/consumer/cn/quickApp" target="_blank" rel="noopener noreferrer">https://developer.huawei.com/consumer/cn/quickApp</a></td></tr><tr><td>小米</td><td><a href="https://dev.mi.com/console/appservice/quickapp" target="_blank" rel="noopener noreferrer">https://dev.mi.com/console/appservice/quickapp</a></td></tr><tr><td>OPPO</td><td><a href="https://open.oppomobile.com/" target="_blank" rel="noopener noreferrer">https://open.oppomobile.com/</a></td></tr><tr><td>vivo</td><td><a href="https://dev.vivo.com.cn/quickApp" target="_blank" rel="noopener noreferrer">https://dev.vivo.com.cn/quickApp</a></td></tr><tr><td>快应用联盟</td><td><a href="https://www.quickapp.cn/" target="_blank" rel="noopener noreferrer">https://www.quickapp.cn</a></td></tr></tbody></table>
+<blockquote>
+<p>✅ 建议使用快应用联盟账号统一管理，或注册各家厂商账号单独发布。 |</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_KzqO" id="参考链接">参考链接<a href="https://dev-js.osliu.cn/blog/%E5%BF%AB%E5%BA%94%E7%94%A8#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5" class="hash-link" aria-label="参考链接的直接链接" title="参考链接的直接链接">​</a></h2>
+<p><a href="https://cdn.cnbj1.fds.api.mi-img.com/quickappcenter1/%E5%B0%8F%E7%B1%B3%E5%BF%AB%E5%BA%94%E7%94%A8%E4%BB%8B%E7%BB%8D.pdf" target="_blank" rel="noopener noreferrer">https://cdn.cnbj1.fds.api.mi-img.com/quickappcenter1/%E5%B0%8F%E7%B1%B3%E5%BF%AB%E5%BA%94%E7%94%A8%E4%BB%8B%E7%BB%8D.pdf</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[前端seo相关常识]]></title>
+            <link>https://dev-js.osliu.cn/blog/前端seo相关常识</link>
+            <guid>https://dev-js.osliu.cn/blog/前端seo相关常识</guid>
+            <pubDate>Wed, 23 Apr 2025 02:20:37 GMT</pubDate>
+            <description><![CDATA[SEO（Search Engine Optimization，搜索引擎优化）是一项系统性的工作，目标是提高网站在搜索引擎结果页（SERP）中的可见度，进而带来更多自然流量。以下是 完整且实用的 SEO 工作清单，按分类整理为【基础设置】【结构优化】【内容优化】【技术优化】【外链与运营】【监控分析】六大类，适用于个人博客、电商平台、企业站等各类网站。]]></description>
+            <content:encoded><![CDATA[<p>SEO（Search Engine Optimization，搜索引擎优化）是一项系统性的工作，目标是提高网站在搜索引擎结果页（SERP）中的可见度，进而带来更多自然流量。以下是 <strong>完整且实用的 SEO 工作清单</strong>，按分类整理为【基础设置】【结构优化】【内容优化】【技术优化】【外链与运营】【监控分析】六大类，适用于个人博客、电商平台、企业站等各类网站。</p>
+<!-- -->
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_KzqO" id="-一基础设置必做">✅ 一、基础设置（必做）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AFseo%E7%9B%B8%E5%85%B3%E5%B8%B8%E8%AF%86#-%E4%B8%80%E5%9F%BA%E7%A1%80%E8%AE%BE%E7%BD%AE%E5%BF%85%E5%81%9A" class="hash-link" aria-label="✅ 一、基础设置（必做）的直接链接" title="✅ 一、基础设置（必做）的直接链接">​</a></h2>
+<table><thead><tr><th>项目</th><th>说明</th></tr></thead><tbody><tr><td>网站标题（<code>&lt;title&gt;</code>）</td><td>每个页面都有独立、准确的标题，长度建议 ≤ 60 字符</td></tr><tr><td>Meta 标签</td><td>包含 <code>&lt;meta name="description"&gt;</code> 描述（建议 ≤ 160 字符），必要时添加 <code>&lt;keywords&gt;</code></td></tr><tr><td>Robots.txt</td><td>告诉搜索引擎哪些页面可以/不可以抓取</td></tr><tr><td>Sitemap.xml</td><td>自动生成，提交到搜索引擎（Google、Bing 等）</td></tr><tr><td>favicon.ico</td><td>小图标也有助于搜索结果展示（品牌识别）</td></tr><tr><td>Canonical 标签</td><td>防止重复内容（如分页、UTM 参数等）</td></tr><tr><td>开启 HTTPS（SSL）</td><td>提高信任度和排名权重（HTTP 被视为“不安全”）</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_KzqO" id="-二结构优化利于爬虫和用户">✅ 二、结构优化（利于爬虫和用户）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AFseo%E7%9B%B8%E5%85%B3%E5%B8%B8%E8%AF%86#-%E4%BA%8C%E7%BB%93%E6%9E%84%E4%BC%98%E5%8C%96%E5%88%A9%E4%BA%8E%E7%88%AC%E8%99%AB%E5%92%8C%E7%94%A8%E6%88%B7" class="hash-link" aria-label="✅ 二、结构优化（利于爬虫和用户）的直接链接" title="✅ 二、结构优化（利于爬虫和用户）的直接链接">​</a></h2>
+<table><thead><tr><th>项目</th><th>说明</th></tr></thead><tbody><tr><td>清晰的 URL 结构</td><td>短、可读、包含关键词，如 <code>/product/iphone-15</code> 而非 <code>/p?id=12345</code></td></tr><tr><td>页面导航（面包屑）</td><td>提高可用性和内链结构，利于搜索引擎理解页面层级</td></tr><tr><td>HTML 语义化标签</td><td>使用 <code>&lt;article&gt;</code> <code>&lt;section&gt;</code> <code>&lt;header&gt;</code> <code>&lt;footer&gt;</code> 等标签</td></tr><tr><td>多语言支持（如有）</td><td>使用 <code>hreflang</code> 标签标识不同语言版本</td></tr><tr><td>响应式设计</td><td>适配移动端，优先考虑移动优先索引（Mobile First Index）</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_KzqO" id="-三内容优化核心价值">✅ 三、内容优化（核心价值）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AFseo%E7%9B%B8%E5%85%B3%E5%B8%B8%E8%AF%86#-%E4%B8%89%E5%86%85%E5%AE%B9%E4%BC%98%E5%8C%96%E6%A0%B8%E5%BF%83%E4%BB%B7%E5%80%BC" class="hash-link" aria-label="✅ 三、内容优化（核心价值）的直接链接" title="✅ 三、内容优化（核心价值）的直接链接">​</a></h2>
+<table><thead><tr><th>项目</th><th>说明</th></tr></thead><tbody><tr><td>关键词研究</td><td>使用工具（如 Ahrefs、Semrush、百度指数）找到高价值关键词</td></tr><tr><td>关键词布局</td><td>在标题、首段、段落中自然出现关键词，不堆砌</td></tr><tr><td>高质量原创内容</td><td>能解决用户问题、有深度、有结构（使用 H1/H2/H3）</td></tr><tr><td>图文并茂</td><td>合理添加图片并加 <code>alt</code> 描述，提升内容丰富度</td></tr><tr><td>内链策略</td><td>在文中链接到站内其他相关页面，提升站内黏性</td></tr><tr><td>定期更新内容</td><td>保持活跃度，提升搜索引擎爬虫频率</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_KzqO" id="-四技术优化提升抓取效率和性能">✅ 四、技术优化（提升抓取效率和性能）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AFseo%E7%9B%B8%E5%85%B3%E5%B8%B8%E8%AF%86#-%E5%9B%9B%E6%8A%80%E6%9C%AF%E4%BC%98%E5%8C%96%E6%8F%90%E5%8D%87%E6%8A%93%E5%8F%96%E6%95%88%E7%8E%87%E5%92%8C%E6%80%A7%E8%83%BD" class="hash-link" aria-label="✅ 四、技术优化（提升抓取效率和性能）的直接链接" title="✅ 四、技术优化（提升抓取效率和性能）的直接链接">​</a></h2>
+<table><thead><tr><th>项目</th><th>说明</th></tr></thead><tbody><tr><td>加快页面加载速度</td><td>使用压缩、懒加载（lazyload）、CDN、图片优化、Tree-shaking 等</td></tr><tr><td>SSR / SSG（可选）</td><td>推荐使用 Next.js、Nuxt 等框架对重要内容进行服务端渲染或预渲染</td></tr><tr><td>支持结构化数据（Schema.org）</td><td>增加富媒体搜索结果（如评分、产品、文章等）</td></tr><tr><td>处理 404 页面</td><td>设计自定义 404 页面，并返回正确状态码</td></tr><tr><td>301 重定向</td><td>确保老链接跳转到新页面，不产生重复页面</td></tr><tr><td>移动端适配检测</td><td>使用 Google Search Console 检查 mobile usability</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_KzqO" id="-五外链与运营提升权重">✅ 五、外链与运营（提升权重）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AFseo%E7%9B%B8%E5%85%B3%E5%B8%B8%E8%AF%86#-%E4%BA%94%E5%A4%96%E9%93%BE%E4%B8%8E%E8%BF%90%E8%90%A5%E6%8F%90%E5%8D%87%E6%9D%83%E9%87%8D" class="hash-link" aria-label="✅ 五、外链与运营（提升权重）的直接链接" title="✅ 五、外链与运营（提升权重）的直接链接">​</a></h2>
+<table><thead><tr><th>项目</th><th>说明</th></tr></thead><tbody><tr><td>优质外链建设</td><td>获取高权重网站的自然推荐（如技术博客、媒体、自有内容矩阵）</td></tr><tr><td>社交媒体曝光</td><td>微博、知乎、B 站、YouTube 等渠道推广，增加自然流量</td></tr><tr><td>提交搜索引擎</td><td>Google Search Console / 百度搜索资源平台 / 必应站长平台</td></tr><tr><td>内容同步渠道</td><td>通过 RSS、公众号、头条号等渠道同步更新</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_KzqO" id="-六监控与分析持续改进">✅ 六、监控与分析（持续改进）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AFseo%E7%9B%B8%E5%85%B3%E5%B8%B8%E8%AF%86#-%E5%85%AD%E7%9B%91%E6%8E%A7%E4%B8%8E%E5%88%86%E6%9E%90%E6%8C%81%E7%BB%AD%E6%94%B9%E8%BF%9B" class="hash-link" aria-label="✅ 六、监控与分析（持续改进）的直接链接" title="✅ 六、监控与分析（持续改进）的直接链接">​</a></h2>
+<table><thead><tr><th>项目</th><th>说明</th></tr></thead><tbody><tr><td>Google Search Console</td><td>分析页面表现、关键词点击量、抓取情况</td></tr><tr><td>百度搜索资源平台</td><td>查看收录、点击、抓取日志</td></tr><tr><td>GA / Matomo</td><td>用户行为分析、跳出率、转化路径等</td></tr><tr><td>错误日志和死链监控</td><td>监控 404、301、服务器错误</td></tr><tr><td>热力图和点击图工具</td><td>如 Hotjar，用于分析用户真实行为路径</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_KzqO" id="-常见误区和建议">🧠 常见误区和建议<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AFseo%E7%9B%B8%E5%85%B3%E5%B8%B8%E8%AF%86#-%E5%B8%B8%E8%A7%81%E8%AF%AF%E5%8C%BA%E5%92%8C%E5%BB%BA%E8%AE%AE" class="hash-link" aria-label="🧠 常见误区和建议的直接链接" title="🧠 常见误区和建议的直接链接">​</a></h2>
+<table><thead><tr><th>错误做法</th><th>正确方式</th></tr></thead><tbody><tr><td>把所有内容用 JS 渲染（SPA）</td><td>核心内容用 SSR/SSG 输出 HTML</td></tr><tr><td>大量关键词堆砌</td><td>用自然语言表达，重点关键词提炼清晰</td></tr><tr><td>URL 随意加参数，无 Canonical</td><td>使用 canonical 标签规范原始链接</td></tr><tr><td>无 sitemap 或 robots 阻止重要目录</td><td>保证 sitemap 更新，robots 配置合理</td></tr><tr><td>每个页面 meta title 都一样</td><td>每页都应有独立 title 和 description</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_KzqO" id="-总结一句话版速记">🧾 总结一句话版（速记）<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AFseo%E7%9B%B8%E5%85%B3%E5%B8%B8%E8%AF%86#-%E6%80%BB%E7%BB%93%E4%B8%80%E5%8F%A5%E8%AF%9D%E7%89%88%E9%80%9F%E8%AE%B0" class="hash-link" aria-label="🧾 总结一句话版（速记）的直接链接" title="🧾 总结一句话版（速记）的直接链接">​</a></h2>
+<blockquote>
+<p>SEO = 内容质量 × 技术性能 × 用户体验 × 搜索友好度 × 外链口碑 × 数据反馈循环</p>
+</blockquote>
+<hr>
+<p>如果你能告诉我你的网站类型（如博客、商品展示、Web App 等），我可以给你一个专属的 SEO 优化 checklist 方案。需要的话可以贴一下结构或页面类型，我来给出针对性建议。</p>
+<h1>参考链接</h1>
+<p><a href="https://developers.google.com/search/docs/crawling-indexing/robots/intro?hl=zh-cn" target="_blank" rel="noopener noreferrer">robots.txt 简介</a></p>
+<p><a href="https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview?hl=zh-cn" target="_blank" rel="noopener noreferrer">了解站点地图</a></p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[使用 Redis 的分布式锁]]></title>
             <link>https://dev-js.osliu.cn/blog/2025 4 23/使用 Redis 的分布式锁</link>
             <guid>https://dev-js.osliu.cn/blog/2025 4 23/使用 Redis 的分布式锁</guid>
@@ -460,8 +539,9 @@ Anycast 是一种 IP 路由机制，属于 BGP（Border Gateway Protocol）协�
             <link>https://dev-js.osliu.cn/blog/前端相关面试题</link>
             <guid>https://dev-js.osliu.cn/blog/前端相关面试题</guid>
             <pubDate>Sun, 09 Mar 2025 05:38:45 GMT</pubDate>
-            <description><![CDATA[HTML/CSS]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_KzqO" id="htmlcss">HTML/CSS<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#htmlcss" class="hash-link" aria-label="HTML/CSS的直接链接" title="HTML/CSS的直接链接">​</a></h2>
+            <description><![CDATA[{/ truncate /}]]></description>
+            <content:encoded><![CDATA[
+<h2 class="anchor anchorWithStickyNavbar_KzqO" id="htmlcss">HTML/CSS<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#htmlcss" class="hash-link" aria-label="HTML/CSS的直接链接" title="HTML/CSS的直接链接">​</a></h2>
 <ul>
 <li>HTML 基础：语义化标签、表单、SEO 优化等。</li>
 <li>CSS 基础：选择器、盒模型、布局（如 Flexbox、Grid）、响应式设计等。</li>
@@ -480,57 +560,10 @@ Anycast 是一种 IP 路由机制，属于 BGP（Border Gateway Protocol）协�
 <ul>
 <li>React：组件、状态管理（Redux、MobX）、生命周期、Hooks 等。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_KzqO" id="usecallback-与-usememo-区别">useCallback 与 useMemo 区别？<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#usecallback-%E4%B8%8E-usememo-%E5%8C%BA%E5%88%AB" class="hash-link" aria-label="useCallback 与 useMemo 区别？的直接链接" title="useCallback 与 useMemo 区别？的直接链接">​</a></h3>
-<ol>
-<li>useCallback 用于缓存回调函数，避免在组件重新渲染时不必要的函数重建。</li>
-<li>useMemo 用于缓存计算结果，避免在依赖项没有变化时重复计算昂贵的操作。</li>
-</ol>
 <h2 class="anchor anchorWithStickyNavbar_KzqO" id="vue">Vue<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#vue" class="hash-link" aria-label="Vue的直接链接" title="Vue的直接链接">​</a></h2>
 <ul>
 <li>Vue.js：组件、指令、Vuex、Vue Router 等。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_KzqO" id="vue-中-watch-与-watcheffect-computed-各自差异特点以及为什么">Vue 中 watch 与 watchEffect, computed 各自差异特点，以及为什么？<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#vue-%E4%B8%AD-watch-%E4%B8%8E-watcheffect-computed-%E5%90%84%E8%87%AA%E5%B7%AE%E5%BC%82%E7%89%B9%E7%82%B9%E4%BB%A5%E5%8F%8A%E4%B8%BA%E4%BB%80%E4%B9%88" class="hash-link" aria-label="Vue 中 watch 与 watchEffect, computed 各自差异特点，以及为什么？的直接链接" title="Vue 中 watch 与 watchEffect, computed 各自差异特点，以及为什么？的直接链接">​</a></h3>
-<ul>
-<li>watch</li>
-</ul>
-<ol>
-<li>第一个参数是要监听的数据源。</li>
-<li>第二个参数是回调函数，接收新值和旧值作为参数。</li>
-<li>第三个参数是可选的配置对象，可以设置 immediate（立即执行）和 deep（深度监听）等选项。</li>
-</ol>
-<ul>
-<li>watchEffect</li>
-</ul>
-<ol>
-<li>第一个参数是一个副作用函数，响应式数据都会被自动追踪。</li>
-<li>第二个参数是可选的配置对象，可以设置 flush（控制副作用执行的时机）和 onTrack / onTrigger（用于调试）等选项。</li>
-</ol>
-<ul>
-<li>computed</li>
-</ul>
-<ol>
-<li>计算属性是基于它们的依赖进行缓存的，只有在相关依赖发生变化时才会重新计算。</li>
-</ol>
-<h3 class="anchor anchorWithStickyNavbar_KzqO" id="vue3-相对于-vue2-做了哪些升级">Vue3 相对于 Vue2 做了哪些升级？<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#vue3-%E7%9B%B8%E5%AF%B9%E4%BA%8E-vue2-%E5%81%9A%E4%BA%86%E5%93%AA%E4%BA%9B%E5%8D%87%E7%BA%A7" class="hash-link" aria-label="Vue3 相对于 Vue2 做了哪些升级？的直接链接" title="Vue3 相对于 Vue2 做了哪些升级？的直接链接">​</a></h3>
-<ul>
-<li>性能提升</li>
-</ul>
-<ol>
-<li>Vue 3 重写了虚拟 DOM 实现</li>
-<li>Vue 3 引入了静态树提升（Static Tree Hoisting）和静态属性提升（Static Props Hoisting）等编译时优化</li>
-<li>Vue 3 的响应式系统基于 Proxy 实现，提供了更全面的响应式能力，支持更复杂的数据结构，如 Map、Set 等。</li>
-</ol>
-<ul>
-<li>组合式 API</li>
-</ul>
-<ol>
-<li>解决了 Vue 2 中 mixins 的一些问题，如命名冲突和数据来源不明确。</li>
-<li>组合式 API 与 TypeScript 更加兼容</li>
-<li>Vue 3 引入了 <code>&lt;Teleport&gt;</code> 组件，允许你将组件的子节点渲染到 DOM 树中的其他位置，这对于创建全局模态框、提示框等非常有用。</li>
-<li>Vue 3 支持多根节点组件（Fragments），简化了模板结构。</li>
-<li>Suspense 组件允许你在组件加载数据时显示一个占位内容，处理异步数据加载非常有用。</li>
-<li>Vue 3 的核心库体积更小，通过 tree-shaking 技术，开发者可以只引入需要的部分，进一步减小打包后的体积。</li>
-</ol>
 <h2 class="anchor anchorWithStickyNavbar_KzqO" id="构建工具和自动化">构建工具和自动化<a href="https://dev-js.osliu.cn/blog/%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98#%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E5%92%8C%E8%87%AA%E5%8A%A8%E5%8C%96" class="hash-link" aria-label="构建工具和自动化的直接链接" title="构建工具和自动化的直接链接">​</a></h2>
 <ul>
 <li>模块打包工具：Webpack、Parcel、Rollup 等。</li>
